@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
 
     //Declare Private Variables
-    private InputActions playerInput;
+    public static InputActions playerInput;
     private Vector2 movement;
     private Rigidbody2D rigidbody;
 
