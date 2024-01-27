@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     //Declare Public Variables
     public float moveSpeed;
     public static bool interaction;
+    public bool canMove;
     
     //Enable input action map
     private void Awake() { playerInput = new InputActions(); }
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        canMove = true;
     }
 
     private void Update()
@@ -31,13 +33,12 @@ public class PlayerController : MonoBehaviour
         
             //Player Movement
         movement = playerInput.PlayerMovement.Movement.ReadValue<Vector2>();
-        //Debug.Log("Player Movement: " + movement);
-        rigidbody.velocity += (movement * moveSpeed) / 10;
+        if (canMove)
+            rigidbody.velocity += (movement * moveSpeed) / 10;
 
+            //Player interaction
         if (playerInput.PlayerMovement.Interact.triggered)
-        {
             interaction = true;
-        }
         
         AnimatePlayer();
     }
