@@ -2,7 +2,32 @@ fileFormatVersion: 2
 guid: 4482a38b669684601a9e452b3e492ca6
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Chat is this real
+    second: {fileID: 7400000, guid: 7d3a219099019ce4683ce3551bff60d7, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Critical
+    second: {fileID: 7400000, guid: f0553185eff76154eb155da73e19ea93, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: High
+    second: {fileID: 7400000, guid: 6aae4939a6d6bc84b82121428df953fa, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Low
+    second: {fileID: 7400000, guid: 4be73e8a636428249a13f39a096115d1, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Mid
+    second: {fileID: 7400000, guid: b314e03798d9eee4facfbede0008ea42, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -95,7 +120,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638419687572198635
+  platformSettingsDirtyTick: 638419862624936990
   textureAssetName: 
   singleSpriteImportData:
   - name: 
