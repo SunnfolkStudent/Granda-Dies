@@ -31,10 +31,17 @@ public class PlayerController : MonoBehaviour
     {
         interaction = false;
         
-            //Player Movement
-        movement = playerInput.PlayerMovement.Movement.ReadValue<Vector2>();
+        //Player Movement
         if (canMove)
+        { 
+            movement = playerInput.PlayerMovement.Movement.ReadValue<Vector2>();
             rigidbody.velocity += (movement * moveSpeed) / 10;
+        }
+        else
+        {
+            movement = Vector2.zero;
+            rigidbody.velocity = Vector2.zero;
+        }
 
             //Player interaction
         if (playerInput.PlayerMovement.Interact.triggered)
