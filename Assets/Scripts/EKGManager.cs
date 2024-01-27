@@ -6,7 +6,8 @@ public class EKGManager : MonoBehaviour
 {
 
     [SerializeField] private Animator animator;
-    [SerializeField] private AudioClip flatlineSFX; 
+    [SerializeField] private AudioClip flatlineSFX;
+    
     private AudioSource audioSource;
     private GrandpaManager grandpaManager;
     
