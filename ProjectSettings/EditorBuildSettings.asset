@@ -11,5 +11,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Scene.unity
     guid: f83814e1371dbcf4294516cc90c8e31e
+  - enabled: 1
+    path: Assets/Scenes/Credits Scene.unity
+    guid: 21469a8b93db0434ba0f84d2b09b2a51
+  - enabled: 1
+    path: Assets/Scenes/Minigame Overlay Scene.unity
+    guid: df78a050c6eca36428e86c7c43abdf93
+  - enabled: 1
+    path: Assets/Scenes/SceneChanger.unity
+    guid: 36c1d89dcfa6b48cf9fe13fc779a1950
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
