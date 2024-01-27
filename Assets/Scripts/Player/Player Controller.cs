@@ -44,7 +44,9 @@ public class PlayerController : MonoBehaviour
 
     private void AnimatePlayer()
     {
-       
+        animator.SetBool("Moving", movement.magnitude > 0);
+        animator.SetFloat("MoveSpeedX", movement.x);
+        animator.SetFloat("MoveSpeedY", movement.y);
         return;
     }
     
