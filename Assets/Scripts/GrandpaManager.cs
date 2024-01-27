@@ -6,10 +6,12 @@ using UnityEngine;
 public class GrandpaManager : MonoBehaviour
 {
 
-    private Animator animator;
-    public bool grandpaInfusedWithPiss, dead;
+    [SerializeField] private AudioSource backgroundMusicSource;
     
+    private Animator animator;
     private String currPlay;
+    
+    public bool grandpaInfusedWithPiss, dead;
     public int grandpaHealth;
     
     // Start is called before the first frame update
@@ -47,6 +49,7 @@ public class GrandpaManager : MonoBehaviour
         animator.SetTrigger("deadNoPee");
         dead = true;
         currPlay = "still no pee";
+        backgroundMusicSource.enabled = false;
         return;
     }
     public void GrandpaIsFuckingDeadAndPissInfused()
@@ -55,6 +58,7 @@ public class GrandpaManager : MonoBehaviour
         grandpaInfusedWithPiss = true;
         dead = true;
         currPlay = "still pee";
+        backgroundMusicSource.enabled = false;
         return;
     }
 }
