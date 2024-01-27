@@ -43,6 +43,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         {
             this.transform.localPosition = new Vector3(_resetPos.x, _resetPos.y, _resetPos.z);
         }
+        
     }
 
     public void OnDrag(PointerEventData eventData)
