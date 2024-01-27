@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d2eac097713d53a47ab577f9a3721b34
+timeCreated: 1477421456
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 484878306007051821, guid: 0000000000000000d000000000000000, type: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 73888
+  packageName: Hierarchy Gadget
+  packageVersion: 1.2.0
+  assetPath: Assets/Hierarchy Gadget/Editor/HierarchyGadget.cs
+  uploadId: 379655
