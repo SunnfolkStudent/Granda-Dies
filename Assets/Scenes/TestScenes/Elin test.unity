@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 267387415}
   - component: {fileID: 267387414}
   - component: {fileID: 267387417}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: particle_autumn_leaf_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,6 +150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1371e7c130e1a804b9705aab4439e851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dropSlot: {fileID: 837435183}
+  _speed: 100
 --- !u!212 &267387415
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -275,7 +277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 837435185}
   - component: {fileID: 837435184}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
