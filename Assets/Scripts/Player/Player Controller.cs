@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         if (canMove)
         { 
             movement = playerInput.PlayerMovement.Movement.ReadValue<Vector2>();
-            rigidbody.velocity += (movement * moveSpeed) / 10;
+            rigidbody.velocity += movement * (moveSpeed * Time.deltaTime);
         }
         else
         {
