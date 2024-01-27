@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -73,7 +73,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -85,7 +85,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638419985060602857
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Pill minigame
+  - name: Background
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 352
       height: 225
-    spriteID: dc3906527fc310b42832ee77123aba41
+    spriteID: 492d4a4cba50f3e4cae3cacb1ffd7736
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,26 +139,469 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Grey square
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.2777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 237
+      width: 226
+      height: 144
+    spriteID: 3cede974e2e389c4c81a3cdcf70dab5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 237}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.57142854}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 237
+      width: 270
+      height: 70
+    spriteID: c8d34783d7eae144289c6e73e6b16cd3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 237}
+  - name: Pills and water glass
+    originalName: 
+    pivot: {x: 0.49006623, y: -1.5576923}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 315
+      width: 151
+      height: 52
+    spriteID: bf5f4b0615bbe874f8c269ae1b89799b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 315}
+  - name: 'Open '
+    originalName: 
+    pivot: {x: 0.8, y: -1.1666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 397
+      y: 315
+      width: 95
+      height: 48
+    spriteID: 5e6fb5c44b51d69418a96066d613f5b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 397, y: 315}
+  - name: pills sunday
+    originalName: 
+    pivot: {x: -0.571428, y: -10.285714}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 4
+      width: 7
+      height: 7
+    spriteID: 6efe5187810a6094c89373fcfb9b4298
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 4}
+  - name: pills saturday
+    originalName: 
+    pivot: {x: 1.1666673, y: -14.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 487
+      y: 4
+      width: 6
+      height: 5
+    spriteID: 76fa79b3afe6724449b18dc4c17a346e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 487, y: 4}
+  - name: pills friday
+    originalName: 
+    pivot: {x: 3.8000007, y: -17.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 315
+      width: 5
+      height: 4
+    spriteID: 61d909d2a6a3a2a4795480a9076692d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 315}
+  - name: pills thurdsday
+    originalName: 
+    pivot: {x: 3, y: -6.9}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 453
+      y: 4
+      width: 11
+      height: 10
+    spriteID: 4e4a1b1fee66af54eb3c0a9b35c747ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 453, y: 4}
+  - name: pills wednesday
+    originalName: 
+    pivot: {x: 7.166667, y: -13.8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 501
+      y: 4
+      width: 6
+      height: 5
+    spriteID: ea739d180a9d79f4692feddd0a273074
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 501, y: 4}
+  - name: pills tuesday
+    originalName: 
+    pivot: {x: 13.25, y: -16.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 327
+      width: 4
+      height: 4
+    spriteID: e7669410f28a4a6499489123fd3f7a64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 327}
+  - name: pills monday
+    originalName: 
+    pivot: {x: 0.86419743, y: -5.076923}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 4
+      width: 81
+      height: 13
+    spriteID: bb1f278006badfb4eadb8481b6fd0c99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1697973986
-    name: Pill minigame
-    layerFlags: 0
+    guid: -1021688250
+    name: Background
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Pill minigame
+    - name: Background
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 352
         height: 225
-      spriteId: dc3906527fc310b42832ee77123aba41
+      spriteId: 492d4a4cba50f3e4cae3cacb1ffd7736
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  - layerIndex: 1
+    guid: 1800562597
+    name: Grey square
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Grey square
+      frameIndex: 0
+      cellRect:
+        x: 63
+        y: 40
+        width: 226
+        height: 144
+      spriteId: 3cede974e2e389c4c81a3cdcf70dab5a
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: -601148572
+    name: Table
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Table
+      frameIndex: 0
+      cellRect:
+        x: 41
+        y: 40
+        width: 270
+        height: 70
+      spriteId: c8d34783d7eae144289c6e73e6b16cd3
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 3
+    guid: 950948039
+    name: Pills and water glass
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Pills and water glass
+      frameIndex: 0
+      cellRect:
+        x: 102
+        y: 81
+        width: 151
+        height: 52
+      spriteId: bf5f4b0615bbe874f8c269ae1b89799b
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: -1640637894
+    name: 'Open '
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: 'Open '
+      frameIndex: 0
+      cellRect:
+        x: 100
+        y: 56
+        width: 95
+        height: 48
+      spriteId: 5e6fb5c44b51d69418a96066d613f5b0
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 6
+    guid: 241720480
+    name: pills sunday
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pills sunday
+      frameIndex: 0
+      cellRect:
+        x: 180
+        y: 72
+        width: 7
+        height: 7
+      spriteId: 6efe5187810a6094c89373fcfb9b4298
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 7
+    guid: -1815890136
+    name: pills saturday
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pills saturday
+      frameIndex: 0
+      cellRect:
+        x: 169
+        y: 71
+        width: 6
+        height: 5
+      spriteId: 76fa79b3afe6724449b18dc4c17a346e
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 8
+    guid: 448018763
+    name: pills friday
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pills friday
+      frameIndex: 0
+      cellRect:
+        x: 157
+        y: 70
+        width: 5
+        height: 4
+      spriteId: 61d909d2a6a3a2a4795480a9076692d2
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 9
+    guid: -1933446181
+    name: pills thurdsday
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pills thurdsday
+      frameIndex: 0
+      cellRect:
+        x: 143
+        y: 69
+        width: 11
+        height: 10
+      spriteId: 4e4a1b1fee66af54eb3c0a9b35c747ea
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 10
+    guid: 170082924
+    name: pills wednesday
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pills wednesday
+      frameIndex: 0
+      cellRect:
+        x: 133
+        y: 69
+        width: 6
+        height: 5
+      spriteId: ea739d180a9d79f4692feddd0a273074
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 11
+    guid: -62969538
+    name: pills tuesday
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pills tuesday
+      frameIndex: 0
+      cellRect:
+        x: 123
+        y: 67
+        width: 4
+        height: 4
+      spriteId: e7669410f28a4a6499489123fd3f7a64
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 12
+    guid: 2110922422
+    name: pills monday
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pills monday
+      frameIndex: 0
+      cellRect:
+        x: 106
+        y: 66
+        width: 81
+        height: 13
+      spriteId: bb1f278006badfb4eadb8481b6fd0c99
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 352, y: 225}
