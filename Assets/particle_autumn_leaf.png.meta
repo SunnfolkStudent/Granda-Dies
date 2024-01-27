@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      particle_autumn_leaf_0: -4087550624503233158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
