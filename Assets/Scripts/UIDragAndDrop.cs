@@ -1,39 +1,45 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
+public class UIDragAndDrop : MonoBehaviour, IPointerDownHandler,IBeginDragHandler,IEndDragHandler, IDragHandler
 {
-    private Transform _transform;
-    private Vector3 _dragOffset;
-    private Camera _camera;
-    private Vector3 _resetPos;
-    [SerializeField] private GameObject _dropSlot;
-    [SerializeField] private float _speed = 100;
+    private RectTransform _transform;
+    private CanvasGroup _canvasGroup;
+    //private Vector3 _dragOffset;
+    //private Camera _camera;
+    //private Vector3 _resetPos;
+    //[SerializeField] private GameObject _dropSlot;
+    //[SerializeField] private float _speed = 100;
+    [SerializeField] private Canvas _canvas;
     private void Awake()
     {
-        _transform = GetComponent<Transform>();
-        _camera = Camera.main;
-        _resetPos = this.transform.localPosition;
+        _transform = GetComponent<RectTransform>();
+        _canvasGroup = GetComponent<CanvasGroup>();
+        //_camera = Camera.main;
+        //_resetPos = this.transform.localPosition;
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("OnPointerDown");
-        _dragOffset = transform.position - GetMousePos();
+        /*_dragOffset = transform.position - GetMousePos();*/
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("OnBeginDrag");
+        _canvasGroup.alpha = .6f;
+        _canvasGroup.blocksRaycasts = false;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("OnEndDrag");
-        if (Mathf.Abs(this.transform.localPosition.x - _dropSlot.transform.localPosition.x) <= 0.5f 
+        _canvasGroup.alpha = 1f;
+        _canvasGroup.blocksRaycasts = true;
+        /*if (Mathf.Abs(this.transform.localPosition.x - _dropSlot.transform.localPosition.x) <= 0.5f
             && Mathf.Abs(this.transform.localPosition.y - _dropSlot.transform.localPosition.y) <= 0.5f)
         {
             Debug.Log("Correct area");
@@ -42,20 +48,20 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         else
         {
             this.transform.localPosition = new Vector3(_resetPos.x, _resetPos.y, _resetPos.z);
-        }
-        
+        }*/
+
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         Debug.Log("OnDrag");
-        _transform.position = Vector3.MoveTowards(transform.position, GetMousePos() + _dragOffset, _speed * Time.deltaTime);
+        _transform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
     }
 
-    Vector3 GetMousePos()
+    /*Vector3 GetMousePos()
     {
         var mousePos = _camera.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0;
         return mousePos;
-    }
+    }*/
 }
