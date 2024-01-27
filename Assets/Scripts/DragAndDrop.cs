@@ -12,6 +12,9 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     private Vector3 _resetPos;
     [SerializeField] private GameObject _dropSlot;
     [SerializeField] private float _speed = 100;
+
+    public GameObject ivBag;
+    
     private void Awake()
     {
         _transform = GetComponent<Transform>();
@@ -33,11 +36,12 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("OnEndDrag");
-        if (Mathf.Abs(this.transform.localPosition.x - _dropSlot.transform.localPosition.x) <= 0.5f 
-            && Mathf.Abs(this.transform.localPosition.y - _dropSlot.transform.localPosition.y) <= 0.5f)
+        if (Mathf.Abs(this.transform.localPosition.x - _dropSlot.transform.localPosition.x) <= 1f 
+            && Mathf.Abs(this.transform.localPosition.y - _dropSlot.transform.localPosition.y) <= 1f)
         {
             Debug.Log("Correct area");
             this.transform.localPosition = new Vector3(_dropSlot.transform.localPosition.x, _dropSlot.transform.localPosition.y);
+            ivBag.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         }
         else
         {
