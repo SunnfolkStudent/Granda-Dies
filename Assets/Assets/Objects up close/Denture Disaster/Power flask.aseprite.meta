@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 4e28eef7c552bb5418da0ea490439d78
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Power flask_Frame_11
+    originalName: 
+    pivot: {x: 0.5147059, y: -1.4576272}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 278
+      y: 4
+      width: 68
+      height: 59
+    spriteID: b401183841f366c4599c4a4294658115
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 278, y: 4}
+  - name: Power flask_Frame_12
+    originalName: 
+    pivot: {x: 0.4375, y: -1.112676}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 4
+      width: 64
+      height: 71
+    spriteID: ef345813206f3b3449ad5ab3834847b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 4}
+  - name: Power flask_Frame_13
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 236
+      width: 58
+      height: 80
+    spriteID: 19199d954e8246445a1878e89d2ac2d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 236}
+  - name: Power flask_Frame_14
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.57894737}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 133
+      width: 58
+      height: 95
+    spriteID: b58a5602ea291eb49aaaad66e723431f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 133}
+  - name: Power flask_Frame_15
+    originalName: 
+    pivot: {x: 0.46666667, y: -0.23966941}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 4
+      width: 60
+      height: 121
+    spriteID: d0c47264da16b1e4ab0b497cab242f22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 4}
+  - name: Power flask_Frame_16
+    originalName: 
+    pivot: {x: 0.43076923, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 65
+      height: 150
+    spriteID: eb5e1757a93e1e84fa9a7827a6ed3755
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Power flask_Frame_17
+    originalName: 
+    pivot: {x: 0.5283019, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 4
+      width: 53
+      height: 150
+    spriteID: 1483438fe6bad864a93f0115f97ab5fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 4}
+  - name: Power flask_Frame_18
+    originalName: 
+    pivot: {x: 0.5185185, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 320
+      width: 54
+      height: 150
+    spriteID: eea42e616995d844394f89a1e94ff53a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 320}
+  - name: Power flask_Frame_19
+    originalName: 
+    pivot: {x: 0.49122807, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 162
+      width: 57
+      height: 150
+    spriteID: 7c3063b2e4d8b604a8acb09241b53a57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 162}
+  - name: Power flask_Frame_0
+    originalName: 
+    pivot: {x: 0.6451613, y: -0.85333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 318
+      width: 31
+      height: 75
+    spriteID: a9e8bfd87573dc74d9db4b6ab1bc7e10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 318}
+  - name: Power flask_Frame_1
+    originalName: 
+    pivot: {x: 0.6451613, y: -0.8101266}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 231
+      width: 31
+      height: 79
+    spriteID: 25b5bb1c99f55b04ca9b930d804fc700
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 231}
+  - name: Power flask_Frame_2
+    originalName: 
+    pivot: {x: 0.6451613, y: -0.5981309}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 243
+      width: 31
+      height: 107
+    spriteID: 4e38fe63e0a93574ab9d38fee11021e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 243}
+  - name: Power flask_Frame_3
+    originalName: 
+    pivot: {x: 0.6451613, y: -0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 324
+      width: 31
+      height: 144
+    spriteID: 4505e8d203a871c429ce7f866fe51c39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 324}
+  - name: Power flask_Frame_4
+    originalName: 
+    pivot: {x: 0.6451613, y: -0.74418604}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 358
+      width: 31
+      height: 86
+    spriteID: 0a89180e4c2dc674ea108354552cd67b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 358}
+  - name: Power flask_Frame_5
+    originalName: 
+    pivot: {x: 0.6451613, y: -0.85333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 401
+      width: 31
+      height: 75
+    spriteID: 09980de8bc376a744973a99a22339616
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 401}
+  - name: Power flask_Frame_6
+    originalName: 
+    pivot: {x: 0.68571436, y: -0.8666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 148
+      width: 35
+      height: 75
+    spriteID: ff6dc5bb63be9a04ca214af6f1d18064
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 148}
+  - name: Power flask_Frame_7
+    originalName: 
+    pivot: {x: 0.71739125, y: -0.9315069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 162
+      width: 46
+      height: 73
+    spriteID: bc2ff7a413ec0c640ac77f5baeff4d2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 162}
+  - name: Power flask_Frame_8
+    originalName: 
+    pivot: {x: 0.609375, y: -1.3684211}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 83
+      width: 64
+      height: 57
+    spriteID: b58a7cb35471df843ac0427c1bd42d46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 83}
+  - name: Power flask_Frame_9
+    originalName: 
+    pivot: {x: 0.527027, y: -2.5555553}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 49
+      width: 74
+      height: 36
+    spriteID: 26d271bcee46ffb4e995c48ca04bd632
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 49}
+  - name: Power flask_Frame_10
+    originalName: 
+    pivot: {x: 0.52000004, y: -2.5405405}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 4
+      width: 75
+      height: 37
+    spriteID: 3ec113d8e40e46846aa74bcc723b50cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1972263588
+    name: Power flask
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Power flask_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 5
+        y: 86
+        width: 68
+        height: 59
+      spriteId: b401183841f366c4599c4a4294658115
+    - name: Power flask_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 12
+        y: 79
+        width: 64
+        height: 71
+      spriteId: ef345813206f3b3449ad5ab3834847b7
+    - name: Power flask_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 12
+        y: 70
+        width: 58
+        height: 80
+      spriteId: 19199d954e8246445a1878e89d2ac2d4
+    - name: Power flask_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 12
+        y: 55
+        width: 58
+        height: 95
+      spriteId: b58a5602ea291eb49aaaad66e723431f
+    - name: Power flask_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 12
+        y: 29
+        width: 60
+        height: 121
+      spriteId: d0c47264da16b1e4ab0b497cab242f22
+    - name: Power flask_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 12
+        y: 0
+        width: 65
+        height: 150
+      spriteId: eb5e1757a93e1e84fa9a7827a6ed3755
+    - name: Power flask_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 12
+        y: 0
+        width: 53
+        height: 150
+      spriteId: 1483438fe6bad864a93f0115f97ab5fe
+    - name: Power flask_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 12
+        y: 0
+        width: 54
+        height: 150
+      spriteId: eea42e616995d844394f89a1e94ff53a
+    - name: Power flask_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 12
+        y: 0
+        width: 57
+        height: 150
+      spriteId: 7c3063b2e4d8b604a8acb09241b53a57
+    - name: Power flask_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 20
+        y: 64
+        width: 31
+        height: 75
+      spriteId: a9e8bfd87573dc74d9db4b6ab1bc7e10
+    - name: Power flask_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 20
+        y: 64
+        width: 31
+        height: 79
+      spriteId: 25b5bb1c99f55b04ca9b930d804fc700
+    - name: Power flask_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 20
+        y: 64
+        width: 31
+        height: 107
+      spriteId: 4e38fe63e0a93574ab9d38fee11021e9
+    - name: Power flask_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 20
+        y: 64
+        width: 31
+        height: 144
+      spriteId: 4505e8d203a871c429ce7f866fe51c39
+    - name: Power flask_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 20
+        y: 64
+        width: 31
+        height: 86
+      spriteId: 0a89180e4c2dc674ea108354552cd67b
+    - name: Power flask_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 20
+        y: 64
+        width: 31
+        height: 75
+      spriteId: 09980de8bc376a744973a99a22339616
+    - name: Power flask_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 16
+        y: 65
+        width: 35
+        height: 75
+      spriteId: ff6dc5bb63be9a04ca214af6f1d18064
+    - name: Power flask_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 7
+        y: 68
+        width: 46
+        height: 73
+      spriteId: bc2ff7a413ec0c640ac77f5baeff4d2d
+    - name: Power flask_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 1
+        y: 78
+        width: 64
+        height: 57
+      spriteId: b58a7cb35471df843ac0427c1bd42d46
+    - name: Power flask_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 1
+        y: 92
+        width: 74
+        height: 36
+      spriteId: 26d271bcee46ffb4e995c48ca04bd632
+    - name: Power flask_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 1
+        y: 94
+        width: 75
+        height: 37
+      spriteId: 3ec113d8e40e46846aa74bcc723b50cc
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 208}

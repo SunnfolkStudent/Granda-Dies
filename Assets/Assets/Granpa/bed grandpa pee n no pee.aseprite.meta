@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638419718430789349
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 40
       height: 35
-    spriteID: f040cdf5cfde9d240b62c805775c24ab
+    spriteID: 3545db7fa75360d43bfe3f0488e1b509
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 47
       width: 40
       height: 35
-    spriteID: 06c8613c3859ccf49b71c9defe1aeade
+    spriteID: 18d11a1ac5a31b74abf878502bea10a8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -166,11 +166,71 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
+      x: 4
+      y: 90
+      width: 40
+      height: 35
+    spriteID: b206c2ec89755774091941f1183c9ff2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 90}
+  - name: bed grandpa pee n no pee_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.54285717}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 133
+      width: 40
+      height: 35
+    spriteID: 6eb3d9fb09dd8c343a96b0ea956d1fd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 133}
+  - name: bed grandpa pee n no pee_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.54285717}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 176
+      width: 40
+      height: 35
+    spriteID: 376dd747c3173cd4cbad92ee67744fc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 176}
+  - name: bed grandpa pee n no pee_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.54285717}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
       x: 52
       y: 4
       width: 40
       height: 35
-    spriteID: a21c1170e91c94e40897e0460844d291
+    spriteID: cf4621b4dc5ace74d8e24fba6cb17a93
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -195,7 +255,7 @@ ScriptedImporter:
         y: 19
         width: 40
         height: 35
-      spriteId: f040cdf5cfde9d240b62c805775c24ab
+      spriteId: 3545db7fa75360d43bfe3f0488e1b509
     - name: bed grandpa pee n no pee_Frame_1
       frameIndex: 1
       cellRect:
@@ -203,7 +263,7 @@ ScriptedImporter:
         y: 19
         width: 40
         height: 35
-      spriteId: 06c8613c3859ccf49b71c9defe1aeade
+      spriteId: 18d11a1ac5a31b74abf878502bea10a8
     - name: bed grandpa pee n no pee_Frame_2
       frameIndex: 2
       cellRect:
@@ -211,10 +271,70 @@ ScriptedImporter:
         y: 19
         width: 40
         height: 35
-      spriteId: a21c1170e91c94e40897e0460844d291
+      spriteId: b206c2ec89755774091941f1183c9ff2
+    - name: bed grandpa pee n no pee_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 4
+        y: 19
+        width: 40
+        height: 35
+      spriteId: 6eb3d9fb09dd8c343a96b0ea956d1fd2
+    - name: bed grandpa pee n no pee_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 4
+        y: 19
+        width: 40
+        height: 35
+      spriteId: 376dd747c3173cd4cbad92ee67744fc3
+    - name: bed grandpa pee n no pee_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 4
+        y: 19
+        width: 40
+        height: 35
+      spriteId: cf4621b4dc5ace74d8e24fba6cb17a93
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 48, y: 64}
