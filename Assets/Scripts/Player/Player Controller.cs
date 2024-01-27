@@ -35,19 +35,19 @@ public class PlayerController : MonoBehaviour
         if (canMove)
         { 
             movement = playerInput.PlayerMovement.Movement.ReadValue<Vector2>();
-            rigidbody.velocity += (movement * moveSpeed) / 10;
+            rigidbody.velocity += movement * (moveSpeed * Time.deltaTime);
+            AnimatePlayer();
         }
         else
         {
             movement = Vector2.zero;
             rigidbody.velocity = Vector2.zero;
+            animator.Play("Idle");
         }
 
             //Player interaction
         if (playerInput.PlayerMovement.Interact.triggered)
             interaction = true;
-        
-        AnimatePlayer();
     }
 
     private void AnimatePlayer()

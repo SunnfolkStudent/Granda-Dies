@@ -37,7 +37,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
             && Mathf.Abs(this.transform.localPosition.y - _dropSlot.transform.localPosition.y) <= 0.5f)
         {
             Debug.Log("Correct area");
-            //this.transform.localPosition = new Vector3(_dropSlot.transform.localPosition.x, _dropSlot.transform.localPosition.y);
+            this.transform.localPosition = new Vector3(_dropSlot.transform.localPosition.x, _dropSlot.transform.localPosition.y);
         }
         else
         {
