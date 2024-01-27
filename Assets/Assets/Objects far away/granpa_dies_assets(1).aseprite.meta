@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -73,7 +73,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -85,7 +85,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638419588363773443
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: granpa_dies_assets(1)
+  - name: Layer 2
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 224
       height: 160
-    spriteID: 9fdd7145d3acd4ca1991345c77021024
+    spriteID: 8ef5abbb59afa104e836839297fd7955
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,23 +139,467 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: heart monitor
+    originalName: 
+    pivot: {x: 2.6551723, y: -1.1636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 172
+      width: 29
+      height: 55
+    spriteID: 475f81288acfd9342bea4df86735dfff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 172}
+  - name: iv bag
+    originalName: 
+    pivot: {x: 2.0952382, y: -1.2800001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 172
+      width: 21
+      height: 50
+    spriteID: 8cdd15437a147d840b0796369c38dcc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 172}
+  - name: bed wthout grnpa
+    originalName: 
+    pivot: {x: 0.60975605, y: -0.54347825}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 172
+      width: 41
+      height: 46
+    spriteID: 460c88fcb24fc3041bf3346e63310996
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 172}
+  - name: 'pissbag '
+    originalName: 
+    pivot: {x: -2.6000006, y: -4.875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 242
+      width: 5
+      height: 8
+    spriteID: 923d43c3e05f6b4479d605f071bebb5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 242}
+  - name: closet
+    originalName: 
+    pivot: {x: -0.5000002, y: -1.1851852}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 172
+      width: 32
+      height: 54
+    spriteID: 2bca0d9bc1c91e54286346d8ebf6954f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 172}
+  - name: empty glass
+    originalName: 
+    pivot: {x: -6.375001, y: -9.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 234
+      width: 8
+      height: 8
+    spriteID: c13e01ea1fa937a40b6c9e3e6cd434f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 234}
+  - name: glass water
+    originalName: 
+    pivot: {x: -6.375001, y: -8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 226
+      width: 8
+      height: 8
+    spriteID: 2f2135549a3f3bc479099988570bb35d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 226}
+  - name: dentures glass
+    originalName: 
+    pivot: {x: -7.875, y: -7.1111116}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 234
+      width: 8
+      height: 9
+    spriteID: d402cba4a7a9bc248876a91ee69f6096
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 234}
+  - name: soda
+    originalName: 
+    pivot: {x: -9, y: -5.769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 235
+      width: 7
+      height: 13
+    spriteID: cd05923b84ba4b242b17f590e4957539
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 235}
+  - name: pill cont 1
+    originalName: 
+    pivot: {x: -13.666665, y: -9.000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 242
+      width: 6
+      height: 9
+    spriteID: 7a061543f7901f34b97d8e331e66f4ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 242}
+  - name: pill cont 2
+    originalName: 
+    pivot: {x: -15, y: -9.000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 18
+      y: 242
+      width: 6
+      height: 9
+    spriteID: b4b74eec3ed9e5b40862099a714f00b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 18, y: 242}
+  - name: dosett
+    originalName: 
+    pivot: {x: -6.307692, y: -10.285714}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 235
+      width: 13
+      height: 7
+    spriteID: 67b43c07e892db24fb3c4028a2400104
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 235}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 841611119
-    name: granpa_dies_assets(1)
-    layerFlags: 0
+    guid: 1317221553
+    name: Layer 2
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: granpa_dies_assets(1)
+    - name: Layer 2
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 224
         height: 160
-      spriteId: 9fdd7145d3acd4ca1991345c77021024
+      spriteId: 8ef5abbb59afa104e836839297fd7955
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 1
+    guid: 937375797
+    name: heart monitor
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: heart monitor
+      frameIndex: 0
+      cellRect:
+        x: 35
+        y: 64
+        width: 29
+        height: 55
+      spriteId: 475f81288acfd9342bea4df86735dfff
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: -1249902467
+    name: iv bag
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: iv bag
+      frameIndex: 0
+      cellRect:
+        x: 68
+        y: 64
+        width: 21
+        height: 50
+      spriteId: 8cdd15437a147d840b0796369c38dcc2
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 3
+    guid: -323769451
+    name: bed wthout grnpa
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: bed wthout grnpa
+      frameIndex: 0
+      cellRect:
+        x: 87
+        y: 25
+        width: 41
+        height: 46
+      spriteId: 460c88fcb24fc3041bf3346e63310996
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: 1836084417
+    name: 'pissbag '
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: 'pissbag '
+      frameIndex: 0
+      cellRect:
+        x: 125
+        y: 39
+        width: 5
+        height: 8
+      spriteId: 923d43c3e05f6b4479d605f071bebb5d
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: 994708463
+    name: closet
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: closet
+      frameIndex: 0
+      cellRect:
+        x: 128
+        y: 64
+        width: 32
+        height: 54
+      spriteId: 2bca0d9bc1c91e54286346d8ebf6954f
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 6
+    guid: 1772101289
+    name: empty glass
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: empty glass
+      frameIndex: 0
+      cellRect:
+        x: 163
+        y: 74
+        width: 8
+        height: 8
+      spriteId: c13e01ea1fa937a40b6c9e3e6cd434f8
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 7
+    guid: -2000160148
+    name: glass water
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: glass water
+      frameIndex: 0
+      cellRect:
+        x: 163
+        y: 64
+        width: 8
+        height: 8
+      spriteId: 2f2135549a3f3bc479099988570bb35d
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 8
+    guid: -652106392
+    name: dentures glass
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: dentures glass
+      frameIndex: 0
+      cellRect:
+        x: 175
+        y: 64
+        width: 8
+        height: 9
+      spriteId: d402cba4a7a9bc248876a91ee69f6096
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 9
+    guid: -1340460388
+    name: soda
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: soda
+      frameIndex: 0
+      cellRect:
+        x: 175
+        y: 75
+        width: 7
+        height: 13
+      spriteId: cd05923b84ba4b242b17f590e4957539
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 10
+    guid: -903790226
+    name: pill cont 1
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pill cont 1
+      frameIndex: 0
+      cellRect:
+        x: 194
+        y: 81
+        width: 6
+        height: 9
+      spriteId: 7a061543f7901f34b97d8e331e66f4ea
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 11
+    guid: -903791434
+    name: pill cont 2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pill cont 2
+      frameIndex: 0
+      cellRect:
+        x: 202
+        y: 81
+        width: 6
+        height: 9
+      spriteId: b4b74eec3ed9e5b40862099a714f00b2
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 12
+    guid: -1245274235
+    name: dosett
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: dosett
+      frameIndex: 0
+      cellRect:
+        x: 194
+        y: 72
+        width: 13
+        height: 7
+      spriteId: 67b43c07e892db24fb3c4028a2400104
     linkedCells: []
     parentIndex: -1
   platformSettings: []
