@@ -1,28 +1,8 @@
 fileFormatVersion: 2
-guid: c3617675fb857b8488b3af804c58fb13
+guid: 5b508afc622553e47be38c4198d45411
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: breathe no pee
-    second: {fileID: 7400000, guid: 8ea38b2d1de095846ae26a377c35d7dd, type: 2}
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: breathe pee
-    second: {fileID: 7400000, guid: f603542eec8f6f24bb7b7f51d618ec5c, type: 2}
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: still no pee
-    second: {fileID: 7400000, guid: 9c4f94267b89cee4384befa60f930a8f, type: 2}
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: still pee
-    second: {fileID: 7400000, guid: bff92e8862765e243a1570f327b940a0, type: 2}
+  externalObjects: {}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -93,7 +73,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -105,7 +85,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -115,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638419720192167580
+  platformSettingsDirtyTick: 638419734473141673
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -139,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: bed grandpa pee n no pee_Frame_0
+  - name: Layer 2
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 40
-      height: 35
-    spriteID: 3545db7fa75360d43bfe3f0488e1b509
+      width: 224
+      height: 160
+    spriteID: ad253dd84fc62634c9b74403b2cd0a8c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,18 +139,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: bed grandpa pee n no pee_Frame_1
+  - name: Layer 1
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
+    pivot: {x: 0.43016762, y: -0.3678161}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 47
-      width: 40
-      height: 35
-    spriteID: 18d11a1ac5a31b74abf878502bea10a8
+      y: 172
+      width: 179
+      height: 87
+    spriteID: 036aebae3abb15c41a784177226ea0b5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,19 +158,39 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 47}
-  - name: bed grandpa pee n no pee_Frame_2
+    uvTransform: {x: 4, y: 172}
+  - name: Layer 3
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
+    pivot: {x: 0.5853659, y: -0.7826086}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 191
+      y: 172
+      width: 41
+      height: 46
+    spriteID: 2fa107a204be0894ab824f055db1e008
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 191, y: 172}
+  - name: Layer 4
+    originalName: 
+    pivot: {x: 0.09523805, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 90
-      width: 40
-      height: 35
-    spriteID: b206c2ec89755774091941f1183c9ff2
+      y: 390
+      width: 21
+      height: 54
+    spriteID: 9beeb03866db14a4c933370e53dc2768
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -198,19 +198,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 90}
-  - name: bed grandpa pee n no pee_Frame_3
+    uvTransform: {x: 4, y: 390}
+  - name: Layer 5
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
+    pivot: {x: -0.3768115, y: -0.49333337}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 133
-      width: 40
-      height: 35
-    spriteID: 6eb3d9fb09dd8c343a96b0ea956d1fd2
+      y: 267
+      width: 69
+      height: 75
+    spriteID: 95b1d511be4e6b1448092730451cc0b8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,19 +218,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 133}
-  - name: bed grandpa pee n no pee_Frame_4
+    uvTransform: {x: 4, y: 267}
+  - name: Layer 6
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
+    pivot: {x: 3.235294, y: -4.8}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 176
-      width: 40
-      height: 35
-    spriteID: 376dd747c3173cd4cbad92ee67744fc3
+      y: 452
+      width: 17
+      height: 10
+    spriteID: b44e67a0b758644488742d93aeed6631
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,19 +238,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 176}
-  - name: bed grandpa pee n no pee_Frame_5
+    uvTransform: {x: 4, y: 452}
+  - name: Layer 3 Copy
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
+    pivot: {x: 1.46875, y: -0.28125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 52
-      y: 4
-      width: 40
-      height: 35
-    spriteID: cf4621b4dc5ace74d8e24fba6cb17a93
+      x: 4
+      y: 350
+      width: 64
+      height: 32
+    spriteID: eee8d0dd5dc0b354898fdb71f9343faa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -258,64 +258,126 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 52, y: 4}
+    uvTransform: {x: 4, y: 350}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1613086685
-    name: bed grandpa pee n no pee
-    layerFlags: 0
+    guid: 1317221553
+    name: Layer 2
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: bed grandpa pee n no pee_Frame_0
+    - name: Layer 2
       frameIndex: 0
       cellRect:
-        x: 4
-        y: 19
-        width: 40
-        height: 35
-      spriteId: 3545db7fa75360d43bfe3f0488e1b509
-    - name: bed grandpa pee n no pee_Frame_1
-      frameIndex: 1
+        x: 0
+        y: 0
+        width: 224
+        height: 160
+      spriteId: ad253dd84fc62634c9b74403b2cd0a8c
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 1
+    guid: 1317222745
+    name: Layer 1
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 1
+      frameIndex: 0
       cellRect:
-        x: 4
-        y: 19
-        width: 40
-        height: 35
-      spriteId: 18d11a1ac5a31b74abf878502bea10a8
-    - name: bed grandpa pee n no pee_Frame_2
-      frameIndex: 2
+        x: 35
+        y: 32
+        width: 179
+        height: 87
+      spriteId: 036aebae3abb15c41a784177226ea0b5
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: 1317221948
+    name: Layer 3
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 3
+      frameIndex: 0
       cellRect:
-        x: 4
-        y: 19
-        width: 40
-        height: 35
-      spriteId: b206c2ec89755774091941f1183c9ff2
-    - name: bed grandpa pee n no pee_Frame_3
-      frameIndex: 3
+        x: 88
+        y: 36
+        width: 41
+        height: 46
+      spriteId: 2fa107a204be0894ab824f055db1e008
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: 1317223931
+    name: Layer 4
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 4
+      frameIndex: 0
       cellRect:
-        x: 4
-        y: 19
-        width: 40
-        height: 35
-      spriteId: 6eb3d9fb09dd8c343a96b0ea956d1fd2
-    - name: bed grandpa pee n no pee_Frame_4
-      frameIndex: 4
+        x: 110
+        y: 66
+        width: 21
+        height: 54
+      spriteId: 9beeb03866db14a4c933370e53dc2768
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: 1317224329
+    name: Layer 5
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 5
+      frameIndex: 0
       cellRect:
-        x: 4
-        y: 19
-        width: 40
-        height: 35
-      spriteId: 376dd747c3173cd4cbad92ee67744fc3
-    - name: bed grandpa pee n no pee_Frame_5
-      frameIndex: 5
+        x: 138
+        y: 37
+        width: 69
+        height: 75
+      spriteId: 95b1d511be4e6b1448092730451cc0b8
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 6
+    guid: 1317223139
+    name: Layer 6
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 6
+      frameIndex: 0
       cellRect:
-        x: 4
-        y: 19
-        width: 40
-        height: 35
-      spriteId: cf4621b4dc5ace74d8e24fba6cb17a93
+        x: 57
+        y: 48
+        width: 17
+        height: 10
+      spriteId: b44e67a0b758644488742d93aeed6631
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 8
+    guid: -2009051783
+    name: Layer 3 Copy
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 3 Copy
+      frameIndex: 0
+      cellRect:
+        x: 18
+        y: 9
+        width: 64
+        height: 32
+      spriteId: eee8d0dd5dc0b354898fdb71f9343faa
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -357,4 +419,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 48, y: 64}
+  canvasSize: {x: 224, y: 160}
