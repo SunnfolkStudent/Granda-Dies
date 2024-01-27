@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     //Declare Public Variables
     public float moveSpeed;
     public static bool interaction;
-    public bool canMove;
+    public static bool canMove;
     
     //Enable input action map
     private void Awake() { playerInput = new InputActions(); }
