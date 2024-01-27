@@ -8,9 +8,11 @@ public class PlayerController : MonoBehaviour
     public static InputActions playerInput;
     private Vector2 movement;
     private Rigidbody2D rigidbody;
-
+    private Animator animator;
+    
     //Declare Public Variables
     public float moveSpeed;
+    public static bool interaction;
     
     //Enable input action map
     private void Awake() { playerInput = new InputActions(); }
@@ -20,10 +22,13 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
+        interaction = false;
+        
             //Player Movement
         movement = playerInput.PlayerMovement.Movement.ReadValue<Vector2>();
         //Debug.Log("Player Movement: " + movement);
@@ -31,7 +36,16 @@ public class PlayerController : MonoBehaviour
 
         if (playerInput.PlayerMovement.Interact.triggered)
         {
-            Debug.Log("Player Interacting");
+            interaction = true;
         }
+        
+        AnimatePlayer();
     }
+
+    private void AnimatePlayer()
+    {
+       
+        return;
+    }
+    
 }
