@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
 
     //Declare Private Variables
-    private InputActions moveInput;
+    private InputActions playerInput;
     private Vector2 movement;
     private Rigidbody2D rigidbody;
 
@@ -13,9 +13,9 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     
     //Enable input action map
-    private void Awake() { moveInput = new InputActions(); }
-    private void OnEnable() { moveInput.Enable(); }
-    private void OnDisable() { moveInput.Disable(); }
+    private void Awake() { playerInput = new InputActions(); }
+    private void OnEnable() { playerInput.Enable(); }
+    private void OnDisable() { playerInput.Disable(); }
 
     private void Start()
     {
@@ -24,8 +24,14 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        movement = moveInput.PlayerMovement.Movement.ReadValue<Vector2>();
-        Debug.Log("Player Movement: " + movement);
+            //Player Movement
+        movement = playerInput.PlayerMovement.Movement.ReadValue<Vector2>();
+        //Debug.Log("Player Movement: " + movement);
         rigidbody.velocity += (movement * moveSpeed) / 10;
+
+        if (playerInput.PlayerMovement.Interact.triggered)
+        {
+            Debug.Log("Player Interacting");
+        }
     }
 }
