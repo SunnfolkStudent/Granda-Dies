@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c42478165f3540a29bf248c929e0e62
+guid: 24e08e2bbf2b3764697a08309a960600
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Hospital Tilemap
+  - name: granpa_dies_assets
     originalName: 
-    pivot: {x: 0.4864865, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1184
-      height: 32
-    spriteID: a5198b061edbb4d9d9b05142e9c89e9a
+      width: 224
+      height: 160
+    spriteID: 6b57df92a46a5964b889e13d22de22bd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -138,27 +138,27 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -28, y: 4}
+    uvTransform: {x: 4, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1502714874
-    name: Hospital Tilemap
+    guid: -1724672525
+    name: granpa_dies_assets
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Hospital Tilemap
+    - name: granpa_dies_assets
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
-        width: 1216
-        height: 32
-      spriteId: a5198b061edbb4d9d9b05142e9c89e9a
+        width: 224
+        height: 160
+      spriteId: 6b57df92a46a5964b889e13d22de22bd
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 1216, y: 32}
+  canvasSize: {x: 224, y: 160}
