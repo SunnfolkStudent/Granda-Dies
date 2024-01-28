@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class GrandpaManager : MonoBehaviour
@@ -11,8 +12,13 @@ public class GrandpaManager : MonoBehaviour
     private Animator animator;
     private String currPlay;
     
+    [Header("Death Modifiers")]
     public bool grandpaInfusedWithPiss, dead;
+    
+    [Header("Health")]
     public int grandpaHealth;
+
+    private CinemachineVirtualCamera camera;
     
     // Start is called before the first frame update
     void Start()
@@ -20,6 +26,7 @@ public class GrandpaManager : MonoBehaviour
         animator = GetComponent<Animator>();
         currPlay = "breathe no pee";
         grandpaHealth = 3;
+        camera = GameObject.FindWithTag("MainCamera").GetComponentInChildren<CinemachineVirtualCamera>();
     }
 
     // Update is called once per frame
@@ -35,8 +42,15 @@ public class GrandpaManager : MonoBehaviour
             dead = true;
             GrandpaIsFuckingDeadAndPissInfused();
         }
+
+        if (grandpaHealth == 0)
+        {
+            StartCoroutine(Timer());
+            grandpaHealth--;
+        }
     }
 
+    #region -----Animations-----
     public void InfuseWithPiss()
     {
         animator.SetTrigger("aliveAndPissInfused");
@@ -60,5 +74,14 @@ public class GrandpaManager : MonoBehaviour
         currPlay = "still pee";
         backgroundMusicSource.enabled = false;
         return;
+    }
+    #endregion
+
+    IEnumerator Timer()
+    {
+        camera.Follow = transform;
+        
+        yield return new WaitForSeconds(10);
+        Debug.Log("Waited" + Time.time);
     }
 }

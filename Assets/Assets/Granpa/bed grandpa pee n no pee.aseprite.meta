@@ -141,8 +141,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: bed grandpa pee n no pee_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -161,8 +161,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: bed grandpa pee n no pee_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -181,8 +181,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 47}
   - name: bed grandpa pee n no pee_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -201,8 +201,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 90}
   - name: bed grandpa pee n no pee_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -221,8 +221,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 133}
   - name: bed grandpa pee n no pee_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -241,8 +241,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 176}
   - name: bed grandpa pee n no pee_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: -0.54285717}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
