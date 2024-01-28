@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 47250d5eebc5a4d0c956df4717612256
+guid: 9565c172842c0ec489b532446782ef2f
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638419588363773443
+  platformSettingsDirtyTick: 638419992566211825
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 224
       height: 160
-    spriteID: 8ef5abbb59afa104e836839297fd7955
+    spriteID: 2a291d500b6724744a48db74fff36773
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,11 +146,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 44
-      y: 394
+      x: 155
+      y: 172
       width: 29
       height: 55
-    spriteID: 475f81288acfd9342bea4df86735dfff
+    spriteID: ac95589bf713a2547b6184350689608c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -158,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 44, y: 394}
+    uvTransform: {x: 155, y: 172}
   - name: iv bag
     originalName: 
     pivot: {x: 2.0952382, y: -1.2800001}
@@ -166,11 +166,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 81
-      y: 394
+      x: 192
+      y: 172
       width: 21
       height: 50
-    spriteID: 8cdd15437a147d840b0796369c38dcc2
+    spriteID: 7f2f71e37c63b33479a79be4c7c6eb3a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,7 +178,27 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 81, y: 394}
+    uvTransform: {x: 192, y: 172}
+  - name: iv bag piss
+    originalName: 
+    pivot: {x: 2.0952382, y: -1.2800001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 221
+      y: 172
+      width: 21
+      height: 50
+    spriteID: 81f4cc90a1fe0ea4bb5d25dcb9ca8976
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 221, y: 172}
   - name: bed wthout grnpa
     originalName: 
     pivot: {x: 0.60975605, y: -0.54347825}
@@ -186,11 +206,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 340
+      x: 66
+      y: 172
       width: 41
       height: 46
-    spriteID: 460c88fcb24fc3041bf3346e63310996
+    spriteID: d29bcdb414184cf4ca6d32d373d27f3e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -198,199 +218,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 340}
+    uvTransform: {x: 66, y: 172}
   - name: 'pissbag '
     originalName: 
-    pivot: {x: -2.6000006, y: -4.875}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 222
-      y: 394
-      width: 5
-      height: 8
-    spriteID: 923d43c3e05f6b4479d605f071bebb5d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 222, y: 394}
-  - name: closet
-    originalName: 
-    pivot: {x: -0.5000002, y: -1.1851852}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 394
-      width: 32
-      height: 54
-    spriteID: 2bca0d9bc1c91e54286346d8ebf6954f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 394}
-  - name: empty glass
-    originalName: 
-    pivot: {x: -6.375001, y: -9.25}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 162
-      y: 394
-      width: 8
-      height: 8
-    spriteID: c13e01ea1fa937a40b6c9e3e6cd434f8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 162, y: 394}
-  - name: glass water
-    originalName: 
-    pivot: {x: -6.375001, y: -8}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 178
-      y: 394
-      width: 8
-      height: 8
-    spriteID: 2f2135549a3f3bc479099988570bb35d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 178, y: 394}
-  - name: dentures glass
-    originalName: 
-    pivot: {x: -7.875, y: -7.1111116}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 146
-      y: 394
-      width: 8
-      height: 9
-    spriteID: d402cba4a7a9bc248876a91ee69f6096
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 146, y: 394}
-  - name: soda
-    originalName: 
-    pivot: {x: -9, y: -5.769231}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 110
-      y: 394
-      width: 7
-      height: 13
-    spriteID: cd05923b84ba4b242b17f590e4957539
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 110, y: 394}
-  - name: pill cont 1
-    originalName: 
-    pivot: {x: -13.666665, y: -9.000001}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 194
-      y: 394
-      width: 6
-      height: 9
-    spriteID: 7a061543f7901f34b97d8e331e66f4ea
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 194, y: 394}
-  - name: pill cont 2
-    originalName: 
-    pivot: {x: -15, y: -9.000001}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 208
-      y: 394
-      width: 6
-      height: 9
-    spriteID: b4b74eec3ed9e5b40862099a714f00b2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 208, y: 394}
-  - name: dosett
-    originalName: 
-    pivot: {x: -6.307692, y: -10.285714}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 125
-      y: 394
-      width: 13
-      height: 7
-    spriteID: 67b43c07e892db24fb3c4028a2400104
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 125, y: 394}
-  - name: Layer 2_Frame_1
-    originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: -0.2407408, y: -0.975}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 172
-      width: 224
-      height: 160
-    spriteID: 17eb3551fec8fca40b7aebfdb7854151
+      width: 54
+      height: 40
+    spriteID: 4ea17467e7730e441a3e0ec4ee21d122
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -399,18 +239,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 172}
-  - name: iv bag_Frame_1
+  - name: closet
     originalName: 
-    pivot: {x: 1.9565217, y: -1.2115386}
+    pivot: {x: -0.5000002, y: -1.1851852}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 456
-      width: 23
-      height: 52
-    spriteID: 999d844447d437d4a9b9d1fc57b38133
+      x: 115
+      y: 172
+      width: 32
+      height: 54
+    spriteID: 20b174fe57fe71347a22c482e847fca3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -418,7 +258,167 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 456}
+    uvTransform: {x: 115, y: 172}
+  - name: empty glass
+    originalName: 
+    pivot: {x: -6.375001, y: -9.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 234
+      width: 8
+      height: 8
+    spriteID: 286915f66a52c2b40a288c5ffdab1754
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 234}
+  - name: glass water
+    originalName: 
+    pivot: {x: -6.375001, y: -8}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 221
+      y: 230
+      width: 8
+      height: 8
+    spriteID: 4df4fae3cc587234482ff0909da87534
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 221, y: 230}
+  - name: dentures glass
+    originalName: 
+    pivot: {x: -7.875, y: -7.1111116}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 234
+      width: 8
+      height: 9
+    spriteID: b0cb85772362e5d449e98c52ca9b4a85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 234}
+  - name: soda
+    originalName: 
+    pivot: {x: -9, y: -5.769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 235
+      width: 7
+      height: 13
+    spriteID: 287f41f10805b514ab7e841342fecc00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 235}
+  - name: pill cont 1
+    originalName: 
+    pivot: {x: -13.666665, y: -9.000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 230
+      width: 6
+      height: 9
+    spriteID: aad48f090d6823546b30af53058a70db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 230}
+  - name: pill cont 2
+    originalName: 
+    pivot: {x: -15, y: -9.000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 226
+      width: 6
+      height: 9
+    spriteID: ad17fb126e10d2148aa20e37fbbe6e4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 226}
+  - name: dosett
+    originalName: 
+    pivot: {x: -6.307692, y: -10.285714}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 235
+      width: 13
+      height: 7
+    spriteID: 5ba81d28dba199048badd2a777a9cc44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 235}
+  - name: crt
+    originalName: 
+    pivot: {x: -5.9285717, y: -1.4545455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 230
+      width: 14
+      height: 22
+    spriteID: c0507d6107612694e978c40b0bf324ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 230}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -428,22 +428,14 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Layer 2_Frame_0
+    - name: Layer 2
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 224
         height: 160
-      spriteId: 8ef5abbb59afa104e836839297fd7955
-    - name: Layer 2_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 0
-        y: 0
-        width: 224
-        height: 160
-      spriteId: 17eb3551fec8fca40b7aebfdb7854151
+      spriteId: 2a291d500b6724744a48db74fff36773
     linkedCells: []
     parentIndex: -1
   - layerIndex: 1
@@ -460,7 +452,7 @@ ScriptedImporter:
         y: 64
         width: 29
         height: 55
-      spriteId: 475f81288acfd9342bea4df86735dfff
+      spriteId: ac95589bf713a2547b6184350689608c
     linkedCells: []
     parentIndex: -1
   - layerIndex: 2
@@ -470,26 +462,35 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: iv bag_Frame_0
+    - name: iv bag
       frameIndex: 0
       cellRect:
         x: 68
         y: 64
         width: 21
         height: 50
-      spriteId: 8cdd15437a147d840b0796369c38dcc2
-    - name: iv bag_Frame_1
-      frameIndex: 1
-      cellRect:
-        x: 67
-        y: 63
-        width: 23
-        height: 52
-      spriteId: 999d844447d437d4a9b9d1fc57b38133
+      spriteId: 7f2f71e37c63b33479a79be4c7c6eb3a
     linkedCells: []
     parentIndex: -1
   - layerIndex: 3
-    guid: -323769451
+    guid: -31300989
+    name: iv bag piss
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: iv bag piss
+      frameIndex: 0
+      cellRect:
+        x: 68
+        y: 64
+        width: 21
+        height: 50
+      spriteId: 81f4cc90a1fe0ea4bb5d25dcb9ca8976
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: -323769454
     name: bed wthout grnpa
     layerFlags: 3
     layerType: 0
@@ -502,11 +503,11 @@ ScriptedImporter:
         y: 25
         width: 41
         height: 46
-      spriteId: 460c88fcb24fc3041bf3346e63310996
+      spriteId: d29bcdb414184cf4ca6d32d373d27f3e
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 4
-    guid: 1836084417
+  - layerIndex: 5
+    guid: 1836084416
     name: 'pissbag '
     layerFlags: 3
     layerType: 0
@@ -517,13 +518,13 @@ ScriptedImporter:
       cellRect:
         x: 125
         y: 39
-        width: 5
-        height: 8
-      spriteId: 923d43c3e05f6b4479d605f071bebb5d
+        width: 54
+        height: 40
+      spriteId: 4ea17467e7730e441a3e0ec4ee21d122
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 5
-    guid: 994708463
+  - layerIndex: 6
+    guid: 994708460
     name: closet
     layerFlags: 3
     layerType: 0
@@ -536,11 +537,11 @@ ScriptedImporter:
         y: 64
         width: 32
         height: 54
-      spriteId: 2bca0d9bc1c91e54286346d8ebf6954f
+      spriteId: 20b174fe57fe71347a22c482e847fca3
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 6
-    guid: 1772101289
+  - layerIndex: 7
+    guid: 1772101288
     name: empty glass
     layerFlags: 3
     layerType: 0
@@ -553,11 +554,11 @@ ScriptedImporter:
         y: 74
         width: 8
         height: 8
-      spriteId: c13e01ea1fa937a40b6c9e3e6cd434f8
+      spriteId: 286915f66a52c2b40a288c5ffdab1754
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 7
-    guid: -2000160148
+  - layerIndex: 8
+    guid: -2000160157
     name: glass water
     layerFlags: 3
     layerType: 0
@@ -570,11 +571,11 @@ ScriptedImporter:
         y: 64
         width: 8
         height: 8
-      spriteId: 2f2135549a3f3bc479099988570bb35d
+      spriteId: 4df4fae3cc587234482ff0909da87534
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 8
-    guid: -652106392
+  - layerIndex: 9
+    guid: -652106391
     name: dentures glass
     layerFlags: 3
     layerType: 0
@@ -587,11 +588,11 @@ ScriptedImporter:
         y: 64
         width: 8
         height: 9
-      spriteId: d402cba4a7a9bc248876a91ee69f6096
+      spriteId: b0cb85772362e5d449e98c52ca9b4a85
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 9
-    guid: -1340460388
+  - layerIndex: 10
+    guid: -1340460385
     name: soda
     layerFlags: 3
     layerType: 0
@@ -604,11 +605,11 @@ ScriptedImporter:
         y: 75
         width: 7
         height: 13
-      spriteId: cd05923b84ba4b242b17f590e4957539
+      spriteId: 287f41f10805b514ab7e841342fecc00
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 10
-    guid: -903790226
+  - layerIndex: 11
+    guid: -903790225
     name: pill cont 1
     layerFlags: 3
     layerType: 0
@@ -621,11 +622,11 @@ ScriptedImporter:
         y: 81
         width: 6
         height: 9
-      spriteId: 7a061543f7901f34b97d8e331e66f4ea
+      spriteId: aad48f090d6823546b30af53058a70db
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 11
-    guid: -903791434
+  - layerIndex: 12
+    guid: -903791439
     name: pill cont 2
     layerFlags: 3
     layerType: 0
@@ -638,11 +639,11 @@ ScriptedImporter:
         y: 81
         width: 6
         height: 9
-      spriteId: b4b74eec3ed9e5b40862099a714f00b2
+      spriteId: ad17fb126e10d2148aa20e37fbbe6e4c
     linkedCells: []
     parentIndex: -1
-  - layerIndex: 12
-    guid: -1245274235
+  - layerIndex: 13
+    guid: -1245274236
     name: dosett
     layerFlags: 3
     layerType: 0
@@ -655,10 +656,63 @@ ScriptedImporter:
         y: 72
         width: 13
         height: 7
-      spriteId: 67b43c07e892db24fb3c4028a2400104
+      spriteId: 5ba81d28dba199048badd2a777a9cc44
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  - layerIndex: 14
+    guid: -1038055793
+    name: crt
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: crt
+      frameIndex: 0
+      cellRect:
+        x: 195
+        y: 32
+        width: 14
+        height: 22
+      spriteId: c0507d6107612694e978c40b0bf324ea
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 224, y: 160}
