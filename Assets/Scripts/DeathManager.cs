@@ -29,6 +29,7 @@ public class DeathManager : MonoBehaviour
     
     IEnumerator Timer()
     {
+        PlayerController.canMove = false;
         camera.Follow = transform;
         
         yield return new WaitForSeconds(10);
