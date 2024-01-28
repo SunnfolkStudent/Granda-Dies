@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,16 +16,28 @@ public class PillAnimationScript : MonoBehaviour
     {
         if (pillBoxClosed.activeSelf == false)
         {
-            canvas.SetActive(false);
-            animation.SetActive(true);
-            animator.Play("Pill minigame animation_Clip");
-            SceneManager.UnloadSceneAsync(_scene);
-            PlayerController.canMove = true;
+            StartCoroutine(AnimationAndEnd());
+            
         }
         else
         {
             return;
         }
+        
+    }
+
+    IEnumerator AnimationAndEnd()
+    {
+        canvas.SetActive(false);
+        animation.SetActive(true);
+        animator.Play("Pill minigame animation_Clip");
+        yield return new WaitForSeconds(2f);
+        SceneManager.UnloadSceneAsync(_scene);
+        PlayerController.canMove = true;
+    }
+
+    private void Update()
+    {
         
     }
 }

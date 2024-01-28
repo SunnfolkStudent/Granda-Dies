@@ -15,6 +15,7 @@ public class Interactionarea : MonoBehaviour
     public string minigame;
 
     private bool entered;
+    private bool interacted;
     
     void Start()
     {
@@ -43,11 +44,17 @@ public class Interactionarea : MonoBehaviour
         {
             OpenPopUpScreen();
         }
+
+        if (interacted)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void OpenPopUpScreen()
     {
         SceneManager.LoadScene(minigame, LoadSceneMode.Additive);
         PlayerController.canMove = false;
+        interacted = true;
     }
 }

@@ -23,5 +23,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestScenes/Piss Minigame.unity
     guid: a947c2bdf719240438eadd3521086206
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/Pill Minigame.unity
+    guid: ce6493d3ea9fa5e47a17facbc2676a51
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/Bottle Minigame.unity
+    guid: e1820e9eec26d8f4db5527fadc40be97
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
