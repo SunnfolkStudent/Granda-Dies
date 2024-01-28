@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
 
-   
+
+    public GameObject gameObject;
     private Transform _transform;
     private Vector3 _dragOffset;
     private Camera _camera;
@@ -60,7 +61,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
         if (endTimer > 1)
         {
-            SceneManager.UnloadSceneAsync("Piss Minigame");
+           gameObject.SetActive(false);
             Debug.Log("unloading");
             PlayerController.canMove = true;
             var temp = GameObject.FindWithTag("Grandpa");
