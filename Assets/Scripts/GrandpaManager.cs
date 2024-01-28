@@ -10,23 +10,27 @@ public class GrandpaManager : MonoBehaviour
     [SerializeField] private AudioSource backgroundMusicSource;
     
     private Animator animator;
+    private AudioSource audioSource;
     private String currPlay;
-    
-    [Header("Death Modifiers")]
-    public bool grandpaInfusedWithPiss, dead;
+
+    [Header("Death Modifiers")] 
+    public bool grandpaInfusedWithPiss; 
+    public bool dead;
     
     [Header("Health")]
     public int grandpaHealth;
 
-    private CinemachineVirtualCamera camera;
+    private DeathManager deathManager;
+    
     
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+        deathManager = GetComponent<DeathManager>();
         currPlay = "breathe no pee";
         grandpaHealth = 3;
-        camera = GameObject.FindWithTag("MainCamera").GetComponentInChildren<CinemachineVirtualCamera>();
     }
 
     // Update is called once per frame
@@ -43,9 +47,10 @@ public class GrandpaManager : MonoBehaviour
             GrandpaIsFuckingDeadAndPissInfused();
         }
 
-        if (grandpaHealth == 0)
+        if (grandpaHealth == 0 && !deathManager.timerActive)
         {
-            StartCoroutine(Timer());
+            deathManager.startDeathTimer();
+            audioSource.Play();
             grandpaHealth--;
         }
     }
@@ -77,11 +82,5 @@ public class GrandpaManager : MonoBehaviour
     }
     #endregion
 
-    IEnumerator Timer()
-    {
-        camera.Follow = transform;
-        
-        yield return new WaitForSeconds(10);
-        Debug.Log("Waited" + Time.time);
-    }
+    
 }
