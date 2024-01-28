@@ -1899,7 +1899,7 @@ Transform:
   m_GameObject: {fileID: 618477704}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.333, y: -2.97, z: 2.2753248}
+  m_LocalPosition: {x: -2.639, y: -0.795, z: 2.2753248}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1948,7 +1948,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1254948898251620120, guid: 9565c172842c0ec489b532446782ef2f, type: 3}
+  m_Sprite: {fileID: -1427171193611895721, guid: 9565c172842c0ec489b532446782ef2f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2333,6 +2333,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9195573284264441158, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
+      propertyPath: gameObject
+      value: 
+      objectReference: {fileID: 1043312941}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2504,7 +2508,7 @@ Transform:
   m_GameObject: {fileID: 791485198}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.491, y: 1.191, z: -10}
+  m_LocalPosition: {x: -0.615, y: 0.78, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3061,7 +3065,7 @@ Transform:
   m_GameObject: {fileID: 990425667}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.491, y: -1.6574, z: 2.2753248}
+  m_LocalPosition: {x: 1.55, y: 0.515, z: 2.2753248}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3131,6 +3135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1020501294}
   - component: {fileID: 1020501292}
+  - component: {fileID: 1020501295}
   m_Layer: 0
   m_Name: Piss Spawn Area
   m_TagString: Untagged
@@ -3199,6 +3204,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1020501295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020501291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde41421173204e4cb5712efd3dd1d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interract: {fileID: -7799396482176383698, guid: 447e195ab6300c84ba5f56672f2b0b5a, type: 3}
+  normalSprite: {fileID: -2156228640528415710, guid: 9565c172842c0ec489b532446782ef2f, type: 3}
+  outlineSprite: {fileID: 654992554134842823, guid: 47250d5eebc5a4d0c956df4717612256, type: 3}
+  spriteRenderer: {fileID: 844337738}
+  gameObject: {fileID: 1043312941}
+  objectsToDelete:
+  - {fileID: 1279225930}
+  objectChangeSprite: {fileID: 844337736}
+  spriteToUse: {fileID: 8621843041608337868, guid: 9565c172842c0ec489b532446782ef2f, type: 3}
+--- !u!1 &1043312941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2188602032134765600, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
+  m_PrefabInstance: {fileID: 738557729}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1058941015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4451,8 +4482,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1073305392}
   minigame: Bottle Minigame
   objectsToDelete: []
-  objectChangeSprite: {fileID: 0}
-  spriteToUse: {fileID: 0}
+  objectChangeSprite: {fileID: 990425667}
+  spriteToUse: {fileID: 548728610641630378, guid: 246cfe5f61cb04542b4c02e5d52e751c, type: 3}
 --- !u!4 &1626217919
 Transform:
   m_ObjectHideFlags: 0
@@ -4811,9 +4842,10 @@ MonoBehaviour:
   outlineSprite: {fileID: -2408825162771921028, guid: 90e8d1bc78af04342b5fb7b4c19c1a4d, type: 3}
   spriteRenderer: {fileID: 467814630}
   minigame: Pill Minigame
-  objectsToDelete: []
-  objectChangeSprite: {fileID: 0}
-  spriteToUse: {fileID: 0}
+  objectsToDelete:
+  - {fileID: 1522076922}
+  objectChangeSprite: {fileID: 618477704}
+  spriteToUse: {fileID: 1254948898251620120, guid: 9565c172842c0ec489b532446782ef2f, type: 3}
 --- !u!4 &1706023561
 Transform:
   m_ObjectHideFlags: 0
@@ -7771,11 +7803,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6409297379713230449, guid: 0a529539e1c948941988e0d2bb94050e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.491
+      value: -0.615
       objectReference: {fileID: 0}
     - target: {fileID: 6409297379713230449, guid: 0a529539e1c948941988e0d2bb94050e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.941
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 6409297379713230449, guid: 0a529539e1c948941988e0d2bb94050e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8135,7 +8167,7 @@ MonoBehaviour:
   stoneSlide: {fileID: 8300000, guid: 9ab8f519c4a7fe1409467782900b6986, type: 3}
   footsteps: {fileID: 8300000, guid: 42267d87c3a40384fa326a2d1c752c9f, type: 3}
   doorOpen: {fileID: 8300000, guid: e8b7de7221b6f4e4497b7aad546d7821, type: 3}
-  scream: {fileID: 0}
+  scream: {fileID: 8300000, guid: 3d6ac3b643b6dba47974e155cb4cb18f, type: 3}
 --- !u!1 &1976308333
 GameObject:
   m_ObjectHideFlags: 0
@@ -8288,8 +8320,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.058649987, y: -0.12519997, z: 0}
-    m_Extent: {x: 0.93515, y: 1.1592, z: 0}
+    m_Center: {x: 0.05859998, y: -0.12595004, z: 0}
+    m_Extent: {x: 0.9352, y: 1.15955, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
