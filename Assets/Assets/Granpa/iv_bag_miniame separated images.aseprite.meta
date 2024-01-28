@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -73,7 +73,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -85,7 +85,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638419983294833099
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: iv_bag_miniame separated images_Frame_0
+  - name: back_Frame_0
     originalName: 
     pivot: {x: 0.5, y: -0.088541664}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 288
       height: 192
-    spriteID: 3eb85bb71c0148242a673204ae777ef8
+    spriteID: d4eb690a6df678645ad769fe2303f1f4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,7 +139,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: iv_bag_miniame separated images_Frame_1
+  - name: back_Frame_1
     originalName: 
     pivot: {x: 0.5, y: -0.088541664}
     alignment: 9
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 204
       width: 288
       height: 192
-    spriteID: df5519f9f7afe0a409d24fd9778fd736
+    spriteID: c20a26201e5bdb9408490d75757ad32a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,7 +159,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 204}
-  - name: iv_bag_miniame separated images_Frame_2
+  - name: bed_Frame_0
     originalName: 
     pivot: {x: 0.57510734, y: -0.15454546}
     alignment: 9
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 404
       width: 233
       height: 110
-    spriteID: f5d6d7d45f058d84a9cd073127b8f7cf
+    spriteID: ff43eab23974c9440a2fd88326670261
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,7 +179,27 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 404}
-  - name: iv_bag_miniame separated images_Frame_3
+  - name: bed_Frame_2
+    originalName: 
+    pivot: {x: 0.57510734, y: -0.15454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 522
+      width: 233
+      height: 110
+    spriteID: 204975918e9330f47a00dc220709a538
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 522}
+  - name: granpa_Frame_0
     originalName: 
     pivot: {x: 0.5798319, y: -0.53846157}
     alignment: 9
@@ -190,7 +210,7 @@ ScriptedImporter:
       y: 404
       width: 238
       height: 78
-    spriteID: 72612f85424b2554eb985356acb4da22
+    spriteID: 81d13f4a4fe7aec449ab25db9e23d96b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -199,7 +219,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 245, y: 404}
-  - name: iv_bag_miniame separated images_Frame_4
+  - name: granpa_Frame_3
     originalName: 
     pivot: {x: 0.5798319, y: -0.53846157}
     alignment: 9
@@ -210,7 +230,7 @@ ScriptedImporter:
       y: 490
       width: 238
       height: 78
-    spriteID: 2b4df781df337ab46a5261daa770116c
+    spriteID: 64c6ae0c32031e54b88849d71a7cbee3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -219,7 +239,47 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 245, y: 490}
-  - name: iv_bag_miniame separated images_Frame_5
+  - name: granpa WAKE_Frame_0
+    originalName: 
+    pivot: {x: 0.5798319, y: -0.53846157}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 245
+      y: 576
+      width: 238
+      height: 78
+    spriteID: eacbd975e6cacb343ae9bdb7cb43c4a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 245, y: 576}
+  - name: granpa WAKE_Frame_4
+    originalName: 
+    pivot: {x: 0.5798319, y: -0.53846157}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 245
+      y: 662
+      width: 238
+      height: 78
+    spriteID: 7cb3e5c78e7f8c54488fc457a0fa385a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 245, y: 662}
+  - name: iv_Frame_0
     originalName: 
     pivot: {x: -0.1171171, y: -0.121428564}
     alignment: 9
@@ -230,7 +290,7 @@ ScriptedImporter:
       y: 4
       width: 111
       height: 140
-    spriteID: a78d2df26ebdc624482ec82cdf5587cc
+    spriteID: 0df3411003cfd5740990faa0c91d1ec8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -239,7 +299,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 300, y: 4}
-  - name: iv_bag_miniame separated images_Frame_6
+  - name: iv_Frame_5
     originalName: 
     pivot: {x: -0.1171171, y: -0.121428564}
     alignment: 9
@@ -250,7 +310,7 @@ ScriptedImporter:
       y: 204
       width: 111
       height: 140
-    spriteID: 7ad916b6ebde9334eb610c5b0db635b5
+    spriteID: a1ba9811262027b4494a17fe2ff4055d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -259,7 +319,47 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 300, y: 204}
-  - name: iv_bag_miniame separated images_Frame_7
+  - name: iv piss_Frame_0
+    originalName: 
+    pivot: {x: -0.1171171, y: -0.121428564}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 245
+      y: 748
+      width: 111
+      height: 140
+    spriteID: d762049bf6fdd0147944b6beedefb911
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 245, y: 748}
+  - name: iv piss_Frame_6
+    originalName: 
+    pivot: {x: -0.1171171, y: -0.121428564}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 748
+      width: 111
+      height: 140
+    spriteID: 1413b129cc43e3842850cc6b06d1229e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 748}
+  - name: piss bag_Frame_0
     originalName: 
     pivot: {x: 4.36, y: -0.6388889}
     alignment: 9
@@ -270,7 +370,7 @@ ScriptedImporter:
       y: 4
       width: 25
       height: 36
-    spriteID: 164dcf0321e567541aa5f249f35cf349
+    spriteID: 3e36de8fdf554b0458cb741e4bd4b1af
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -279,82 +379,240 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 419, y: 4}
+  - name: piss bag_Frame_7
+    originalName: 
+    pivot: {x: 4.36, y: -0.6388889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 419
+      y: 48
+      width: 25
+      height: 36
+    spriteID: f44f51b9e0977f24b94eeb3d4ff2f1f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 419, y: 48}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1562763358
-    name: iv_bag_miniame separated images
-    layerFlags: 0
+    guid: -719260029
+    name: back
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: iv_bag_miniame separated images_Frame_0
+    - name: back_Frame_0
       frameIndex: 0
       cellRect:
         x: 32
         y: 17
         width: 288
         height: 192
-      spriteId: 3eb85bb71c0148242a673204ae777ef8
-    - name: iv_bag_miniame separated images_Frame_1
+      spriteId: d4eb690a6df678645ad769fe2303f1f4
+    - name: back_Frame_1
       frameIndex: 1
       cellRect:
         x: 32
         y: 17
         width: 288
         height: 192
-      spriteId: df5519f9f7afe0a409d24fd9778fd736
-    - name: iv_bag_miniame separated images_Frame_2
+      spriteId: c20a26201e5bdb9408490d75757ad32a
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 1
+    guid: 1290555942
+    name: bed
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: bed_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 42
+        y: 17
+        width: 233
+        height: 110
+      spriteId: ff43eab23974c9440a2fd88326670261
+    - name: bed_Frame_2
       frameIndex: 2
       cellRect:
         x: 42
         y: 17
         width: 233
         height: 110
-      spriteId: f5d6d7d45f058d84a9cd073127b8f7cf
-    - name: iv_bag_miniame separated images_Frame_3
+      spriteId: 204975918e9330f47a00dc220709a538
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: -1259906515
+    name: granpa
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: granpa_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 38
+        y: 42
+        width: 238
+        height: 78
+      spriteId: 81d13f4a4fe7aec449ab25db9e23d96b
+    - name: granpa_Frame_3
       frameIndex: 3
       cellRect:
         x: 38
         y: 42
         width: 238
         height: 78
-      spriteId: 72612f85424b2554eb985356acb4da22
-    - name: iv_bag_miniame separated images_Frame_4
+      spriteId: 64c6ae0c32031e54b88849d71a7cbee3
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 3
+    guid: 953041996
+    name: granpa WAKE
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: granpa WAKE_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 38
+        y: 42
+        width: 238
+        height: 78
+      spriteId: eacbd975e6cacb343ae9bdb7cb43c4a0
+    - name: granpa WAKE_Frame_4
       frameIndex: 4
       cellRect:
         x: 38
         y: 42
         width: 238
         height: 78
-      spriteId: 2b4df781df337ab46a5261daa770116c
-    - name: iv_bag_miniame separated images_Frame_5
+      spriteId: 7cb3e5c78e7f8c54488fc457a0fa385a
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: 845330443
+    name: iv
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: iv_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 189
+        y: 17
+        width: 111
+        height: 140
+      spriteId: 0df3411003cfd5740990faa0c91d1ec8
+    - name: iv_Frame_5
       frameIndex: 5
       cellRect:
         x: 189
         y: 17
         width: 111
         height: 140
-      spriteId: a78d2df26ebdc624482ec82cdf5587cc
-    - name: iv_bag_miniame separated images_Frame_6
+      spriteId: a1ba9811262027b4494a17fe2ff4055d
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: 1622669611
+    name: iv piss
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: iv piss_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 189
+        y: 17
+        width: 111
+        height: 140
+      spriteId: d762049bf6fdd0147944b6beedefb911
+    - name: iv piss_Frame_6
       frameIndex: 6
       cellRect:
         x: 189
         y: 17
         width: 111
         height: 140
-      spriteId: 7ad916b6ebde9334eb610c5b0db635b5
-    - name: iv_bag_miniame separated images_Frame_7
+      spriteId: 1413b129cc43e3842850cc6b06d1229e
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 6
+    guid: 1112362835
+    name: piss bag
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: piss bag_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 67
+        y: 23
+        width: 25
+        height: 36
+      spriteId: 3e36de8fdf554b0458cb741e4bd4b1af
+    - name: piss bag_Frame_7
       frameIndex: 7
       cellRect:
         x: 67
         y: 23
         width: 25
         height: 36
-      spriteId: 164dcf0321e567541aa5f249f35cf349
+      spriteId: f44f51b9e0977f24b94eeb3d4ff2f1f9
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 352, y: 225}
