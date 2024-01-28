@@ -2683,7 +2683,7 @@ MonoBehaviour:
   pillBoxClosed: {fileID: 1381756911}
   animation: {fileID: 904431175}
   animator: {fileID: 904431176}
-  _scene: Elin Test 3
+  _scene: Pill Minigame
   canvas: {fileID: 386202007}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
