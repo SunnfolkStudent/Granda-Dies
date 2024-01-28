@@ -9,17 +9,28 @@ using UnityEngine.SceneManagement;
 public class Interactionarea : MonoBehaviour
 {
     public InputActionReference interract;
+    
+    [Header("Sprite")]
     public Sprite normalSprite;
     public Sprite outlineSprite;
     public SpriteRenderer spriteRenderer;
+    
+    [Header("Minigame")]
     public string minigame;
 
+    [Header("Change Items in Scene")] 
+    public GameObject[] objectsToDelete;
+    public GameObject objectChangeSprite;
+    public Sprite spriteToUse;
+    
     private bool entered;
     private bool interacted;
+    private GrandpaManager grandpaManager;
     
     void Start()
     {
         entered = false;
+        grandpaManager = GameObject.FindWithTag("Grandpa").GetComponent<GrandpaManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -48,6 +59,14 @@ public class Interactionarea : MonoBehaviour
         if (interacted)
         {
             Destroy(gameObject);
+            
+            foreach (var obj in objectsToDelete)
+                Destroy(obj);
+            if (minigame.Equals("Piss Minigame"))
+                grandpaManager.InfuseWithPiss();
+            
+            objectChangeSprite.GetComponent<SpriteRenderer>().sprite = spriteToUse; 
+            grandpaManager.grandpaHealth--;
         }
     }
 
