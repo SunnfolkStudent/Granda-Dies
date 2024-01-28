@@ -9,6 +9,8 @@ public class DeathManager : MonoBehaviour
     private CinemachineVirtualCamera camera;
     private GameObject parentCutscene;
     
+    [SerializeField] private AudioSource doorAudio;
+    
     public bool timerActive;
     
     // Start is called before the first frame update
@@ -32,13 +34,16 @@ public class DeathManager : MonoBehaviour
     {
         PlayerController.canMove = false;
         camera.Follow = transform;
+
+        yield return new WaitForSeconds(9f);
+        doorAudio.Play();
         
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(1f);
         parentCutscene.SetActive(true);
         
         camera.Follow = parentCutscene.transform;
         camera.m_Lens.OrthographicSize = 0.95f;
-
+        
         yield return new WaitForSeconds(8f);
         SceneManager.LoadScene("Credits Scene");
     }
