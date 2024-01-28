@@ -121,8 +121,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: dentis bag faqr away
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -138,7 +138,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: -171, y: -213}
+    uvTransform: {x: -168, y: -213}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -153,7 +153,7 @@ ScriptedImporter:
       cellRect:
         x: -160
         y: -217
-        width: 183
+        width: 180
         height: 313
       spriteId: 0c39ba9f6f149b3428bf8d5991ce4bfc
     linkedCells: []
