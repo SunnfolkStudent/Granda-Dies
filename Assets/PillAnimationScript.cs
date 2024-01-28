@@ -19,6 +19,7 @@ public class PillAnimationScript : MonoBehaviour
             animation.SetActive(true);
             animator.Play("Pill minigame animation_Clip");
             SceneManager.UnloadSceneAsync(_scene);
+            PlayerController.canMove = true;
         }
         else
         {
