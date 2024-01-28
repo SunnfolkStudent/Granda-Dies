@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -73,7 +73,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -85,7 +85,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638419983975580401
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: iv_bag_miniame1
+  - name: back
     originalName: 
     pivot: {x: 0.5, y: -0.088541664}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 288
       height: 192
-    spriteID: 7f4333bf40313c34ab1cf0d2e993e88b
+    spriteID: e2833056056de7040b43772fb8c6e122
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,26 +139,284 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: bed
+    originalName: 
+    pivot: {x: 0.57510734, y: -0.15454546}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 204
+      width: 233
+      height: 110
+    spriteID: e08873f21793d53449a31fc1c591b0ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 204}
+  - name: granpa
+    originalName: 
+    pivot: {x: 0.5798319, y: -0.53846157}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 245
+      y: 204
+      width: 238
+      height: 78
+    spriteID: c7320213cca286048b08e3d401d13d9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 245, y: 204}
+  - name: granpa WAKE
+    originalName: 
+    pivot: {x: 0.5798319, y: -0.53846157}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 322
+      width: 238
+      height: 78
+    spriteID: 08a613482002b7d429ae004d4361ebab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 322}
+  - name: iv
+    originalName: 
+    pivot: {x: -0.1171171, y: -0.121428564}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 4
+      width: 111
+      height: 140
+    spriteID: de3fd60e6af5fae4fabe990198d6543b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 4}
+  - name: iv piss
+    originalName: 
+    pivot: {x: -0.1171171, y: -0.121428564}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 250
+      y: 322
+      width: 111
+      height: 140
+    spriteID: 39bd59c40187b5c47afcc9925e320e48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 250, y: 322}
+  - name: piss bag
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 419
+      y: 4
+      width: 25
+      height: 36
+    spriteID: 32e797403796ab348a84af5bbe05fb2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 419, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1894992370
-    name: iv_bag_miniame1
-    layerFlags: 0
+    guid: -719260029
+    name: back
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: iv_bag_miniame1
+    - name: back
       frameIndex: 0
       cellRect:
         x: 32
         y: 17
         width: 288
         height: 192
-      spriteId: 7f4333bf40313c34ab1cf0d2e993e88b
+      spriteId: e2833056056de7040b43772fb8c6e122
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  - layerIndex: 1
+    guid: 1290555942
+    name: bed
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: bed
+      frameIndex: 0
+      cellRect:
+        x: 42
+        y: 17
+        width: 233
+        height: 110
+      spriteId: e08873f21793d53449a31fc1c591b0ca
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 2
+    guid: -1259906515
+    name: granpa
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: granpa
+      frameIndex: 0
+      cellRect:
+        x: 38
+        y: 42
+        width: 238
+        height: 78
+      spriteId: c7320213cca286048b08e3d401d13d9d
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 3
+    guid: 953041996
+    name: granpa WAKE
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: granpa WAKE
+      frameIndex: 0
+      cellRect:
+        x: 38
+        y: 42
+        width: 238
+        height: 78
+      spriteId: 08a613482002b7d429ae004d4361ebab
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 4
+    guid: 845330443
+    name: iv
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: iv
+      frameIndex: 0
+      cellRect:
+        x: 189
+        y: 17
+        width: 111
+        height: 140
+      spriteId: de3fd60e6af5fae4fabe990198d6543b
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 5
+    guid: 1622669611
+    name: iv piss
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: iv piss
+      frameIndex: 0
+      cellRect:
+        x: 189
+        y: 17
+        width: 111
+        height: 140
+      spriteId: 39bd59c40187b5c47afcc9925e320e48
+    linkedCells: []
+    parentIndex: -1
+  - layerIndex: 6
+    guid: 1112362835
+    name: piss bag
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: piss bag
+      frameIndex: 0
+      cellRect:
+        x: 67
+        y: 23
+        width: 25
+        height: 36
+      spriteId: 32e797403796ab348a84af5bbe05fb2b
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 352, y: 225}

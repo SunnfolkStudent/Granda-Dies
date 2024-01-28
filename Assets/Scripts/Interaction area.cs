@@ -4,19 +4,21 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Interactionarea : MonoBehaviour
 {
     public InputActionReference interract;
-    public GameObject popUpScreen;
-    public static bool closePopUp;
+    public Sprite normalSprite;
+    public Sprite outlineSprite;
+    public SpriteRenderer spriteRenderer;
+    public string minigame;
 
     private bool entered;
     
     void Start()
     {
         entered = false;
-        popUpScreen.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -25,12 +27,14 @@ public class Interactionarea : MonoBehaviour
         {
             entered = true;
             Debug.Log("Entered Interaction Area");
+            spriteRenderer.sprite = outlineSprite;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         entered = false;
+        spriteRenderer.sprite = normalSprite;
     }
 
     void Update()
@@ -39,24 +43,11 @@ public class Interactionarea : MonoBehaviour
         {
             OpenPopUpScreen();
         }
-
-        if (closePopUp)
-        {
-            ClosePopUpScreen();
-            closePopUp = false;
-        }
-        
-    }
-
-    private void ClosePopUpScreen()
-    {
-        popUpScreen.SetActive(false);
-        PlayerController.canMove = false;
     }
 
     void OpenPopUpScreen()
     {
-        popUpScreen.SetActive(true);
-        PlayerController.canMove = true;
+        SceneManager.LoadScene(minigame, LoadSceneMode.Additive);
+        PlayerController.canMove = false;
     }
 }
