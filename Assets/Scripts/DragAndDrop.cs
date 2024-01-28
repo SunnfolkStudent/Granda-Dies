@@ -63,6 +63,8 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
             SceneManager.UnloadSceneAsync("Piss Minigame");
             Debug.Log("unloading");
             PlayerController.canMove = true;
+            var temp = GameObject.FindWithTag("Grandpa");
+            
         }
     }
 
