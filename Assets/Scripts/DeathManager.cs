@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DeathManager : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class DeathManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void startDeathTimer()
+    public void StartDeathTimer()
     {
         if (!timerActive)
             StartCoroutine(Timer());
@@ -32,10 +33,13 @@ public class DeathManager : MonoBehaviour
         PlayerController.canMove = false;
         camera.Follow = transform;
         
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(10f);
         parentCutscene.SetActive(true);
         
         camera.Follow = parentCutscene.transform;
         camera.m_Lens.OrthographicSize = 0.95f;
+
+        yield return new WaitForSeconds(8f);
+        SceneManager.LoadScene("Credits Scene");
     }
 }

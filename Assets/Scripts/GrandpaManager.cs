@@ -49,7 +49,7 @@ public class GrandpaManager : MonoBehaviour
 
         if (grandpaHealth == 0 && !deathManager.timerActive)
         {
-            deathManager.startDeathTimer();
+            deathManager.StartDeathTimer();
             audioSource.Play();
             grandpaHealth--;
         }

@@ -7,6 +7,7 @@ public class ParentDespairCutsceneManager : MonoBehaviour
     private AudioSource audioSource;
 
     [SerializeField] private AudioClip stoneSlide;
+    [SerializeField] private AudioClip footsteps;
     
     // Start is called before the first frame update
     void Start()
@@ -17,5 +18,10 @@ public class ParentDespairCutsceneManager : MonoBehaviour
     private void PlayStoneSlide()
     {
         audioSource.PlayOneShot(stoneSlide);
+    }
+
+    private void PlayFootsteps()
+    {
+        audioSource.PlayOneShot(footsteps);
     }
 }
