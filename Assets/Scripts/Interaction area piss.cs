@@ -65,7 +65,7 @@ public class Interactionareapiss : MonoBehaviour
            
             
             objectChangeSprite.GetComponent<SpriteRenderer>().sprite = spriteToUse; 
-            grandpaManager.grandpaHealth--;
+            grandpaManager.grandpaHealth = 0;
             grandpaManager.InfuseWithPiss();
         }
     }
