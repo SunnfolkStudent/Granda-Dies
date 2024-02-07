@@ -14,6 +14,15 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public static bool interaction;
     public static bool canMove;
+
+    #region -----Cached Strings-----
+    
+    private static readonly int Moving = Animator.StringToHash("Moving");
+    private static readonly int MoveSpeedX = Animator.StringToHash("MoveSpeedX");
+    private static readonly int MoveSpeedY = Animator.StringToHash("MoveSpeedY");
+    private static readonly int HasFuckedGrandpa = Animator.StringToHash("hasFuckedGrandpa");
+    
+    #endregion
     
     //Enable input action map
     private void Awake() { playerInput = new InputActions(); }
@@ -42,7 +51,9 @@ public class PlayerController : MonoBehaviour
         {
             movement = Vector2.zero;
             rigidbody.velocity = Vector2.zero;
-            animator.Play("Idle");
+            
+            if (!animator.GetCurrentAnimatorStateInfo(0).IsName("happy h ubert"))
+                animator.Play("Idle");
         }
 
             //Player interaction
@@ -52,10 +63,12 @@ public class PlayerController : MonoBehaviour
 
     private void AnimatePlayer()
     {
-        animator.SetBool("Moving", movement.magnitude > 0);
-        animator.SetFloat("MoveSpeedX", movement.x);
-        animator.SetFloat("MoveSpeedY", movement.y);
+        animator.SetBool(Moving, movement.magnitude > 0);
+        animator.SetFloat(MoveSpeedX, movement.x);
+        animator.SetFloat(MoveSpeedY, movement.y);
         return;
     }
+    
+    public void AnimateHappy() { animator.SetTrigger(HasFuckedGrandpa);}
     
 }

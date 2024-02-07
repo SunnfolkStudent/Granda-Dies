@@ -22,7 +22,14 @@ public class GrandpaManager : MonoBehaviour
 
     private DeathManager deathManager;
     
+    #region -----Cached Strings-----
     
+    private static readonly int AliveAndPissInfused = Animator.StringToHash("aliveAndPissInfused");
+    private static readonly int DeadNoPee = Animator.StringToHash("deadNoPee");
+    private static readonly int DeadAndPissInfused = Animator.StringToHash("deadAndPissInfused");
+
+    #endregion
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,18 +43,20 @@ public class GrandpaManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (grandpaHealth == 0 && !grandpaInfusedWithPiss)
+        if (dead) { return; }
+        
+        if (grandpaHealth <= 0 && !grandpaInfusedWithPiss)
         {
             dead = true;
             GrandpaIsFuckingDead();
         }
-        else if (grandpaHealth == 0 && grandpaInfusedWithPiss)
+        else if (grandpaHealth <= 0 && grandpaInfusedWithPiss)
         {
             dead = true;
             GrandpaIsFuckingDeadAndPissInfused();
         }
 
-        if (grandpaHealth == 0 && !deathManager.timerActive)
+        if (grandpaHealth <= 0 && !deathManager.timerActive)
         {
             deathManager.StartDeathTimer();
             audioSource.Play();
@@ -58,29 +67,34 @@ public class GrandpaManager : MonoBehaviour
     #region -----Animations-----
     public void InfuseWithPiss()
     {
-        animator.SetTrigger("aliveAndPissInfused");
+        animator.SetTrigger(AliveAndPissInfused);
         grandpaInfusedWithPiss = true;
         currPlay = "breathe pee";
         return;
     }
     public void GrandpaIsFuckingDead()
     {
-        animator.SetTrigger("deadNoPee");
-        dead = true;
-        currPlay = "still no pee";
-        backgroundMusicSource.enabled = false;
+        animator.SetTrigger(DeadNoPee);
+        KillGrandpa();
+        GameObject.FindWithTag("Player").GetComponent<PlayerController>().AnimateHappy();
         return;
     }
     public void GrandpaIsFuckingDeadAndPissInfused()
     {
-        animator.SetTrigger("deadAndPissInfused");
+        animator.SetTrigger(DeadAndPissInfused);
         grandpaInfusedWithPiss = true;
-        dead = true;
-        currPlay = "still pee";
-        backgroundMusicSource.enabled = false;
+        KillGrandpa();
+        GameObject.FindWithTag("Player").GetComponent<PlayerController>().AnimateHappy();
         return;
     }
     #endregion
+
+    private void KillGrandpa()
+    {
+        dead = true;
+        currPlay = "still pee";
+        backgroundMusicSource.enabled = false;
+    }
 
     
 }
