@@ -46,6 +46,7 @@ public class BottleMinigameScript : MonoBehaviour
         {
             SceneManager.UnloadSceneAsync("Bottle Minigame");
             Debug.Log("unloading");
+            GrandpaDespairCutsceneManager.playCutscene = true;
             PlayerController.canMove = true;
             var temp = GameObject.FindWithTag("Grandpa");
         }

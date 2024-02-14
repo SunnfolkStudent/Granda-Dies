@@ -32,7 +32,9 @@ public class PillAnimationScript : MonoBehaviour
         animation.SetActive(true);
         animator.Play("Pill minigame animation_Clip");
         yield return new WaitForSeconds(2f);
+        
         SceneManager.UnloadSceneAsync(_scene);
+        GrandpaDespairCutsceneManager.playCutscene = true;
         PlayerController.canMove = true;
     }
 

@@ -20,6 +20,10 @@ public class GrandpaManager : MonoBehaviour
     [Header("Health")]
     public int grandpaHealth;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip deathClip;
+    [SerializeField] private AudioClip ambienceClip;
+    
     private DeathManager deathManager;
     
     #region -----Cached Strings-----
@@ -59,7 +63,10 @@ public class GrandpaManager : MonoBehaviour
         if (grandpaHealth <= 0 && !deathManager.timerActive)
         {
             deathManager.StartDeathTimer();
-            audioSource.Play();
+            audioSource.Stop();
+            audioSource.volume = 1f;
+            audioSource.PlayOneShot(deathClip);
+            audioSource.loop = false;
             grandpaHealth--;
         }
     }
