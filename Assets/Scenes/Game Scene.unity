@@ -3186,7 +3186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d98656662b83c42ab95d8b9113b63c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interract: {fileID: 0}
+  interract: {fileID: -7799396482176383698, guid: 447e195ab6300c84ba5f56672f2b0b5a, type: 3}
   normalSprite: {fileID: 7695301393555701864, guid: 47250d5eebc5a4d0c956df4717612256, type: 3}
   outlineSprite: {fileID: 654992554134842823, guid: 47250d5eebc5a4d0c956df4717612256, type: 3}
   spriteRenderer: {fileID: 844337738}
@@ -4953,7 +4953,6 @@ MonoBehaviour:
   backgroundMusicSource: {fileID: 505769192}
   grandpaInfusedWithPiss: 0
   dead: 0
-  grandpaHealth: 3
   deathClip: {fileID: 8300000, guid: d7de2072b5ddb1c45963576a44884cb4, type: 3}
   ambienceClip: {fileID: 8300000, guid: 288893a1df8b5f248b518e87460816dc, type: 3}
 --- !u!114 &1710560267

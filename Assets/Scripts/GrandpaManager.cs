@@ -18,7 +18,7 @@ public class GrandpaManager : MonoBehaviour
     public bool dead;
     
     [Header("Health")]
-    public int grandpaHealth;
+    public static int grandpaHealth;
 
     [Header("Audio")]
     [SerializeField] private AudioClip deathClip;
@@ -102,6 +102,4 @@ public class GrandpaManager : MonoBehaviour
         currPlay = "still pee";
         backgroundMusicSource.enabled = false;
     }
-
-    
 }

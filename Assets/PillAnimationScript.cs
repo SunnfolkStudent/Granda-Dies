@@ -35,7 +35,6 @@ public class PillAnimationScript : MonoBehaviour
         
         SceneManager.UnloadSceneAsync(_scene);
         GrandpaDespairCutsceneManager.playCutscene = true;
-        PlayerController.canMove = true;
     }
 
     private void Update()

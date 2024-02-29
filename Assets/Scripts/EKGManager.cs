@@ -22,11 +22,11 @@ public class EKGManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (grandpaManager.grandpaHealth == 2)
+        if (GrandpaManager.grandpaHealth == 2)
             animator.Play("Low");
-        else if (grandpaManager.grandpaHealth == 1)
+        else if (GrandpaManager.grandpaHealth == 1)
             animator.Play("Critical");
-        else if (grandpaManager.grandpaHealth == 0)
+        else if (GrandpaManager.grandpaHealth == 0)
             animator.Play("Chat is this real");
             
         if (grandpaManager.dead && !audioSource.clip.Equals(flatlineSFX))

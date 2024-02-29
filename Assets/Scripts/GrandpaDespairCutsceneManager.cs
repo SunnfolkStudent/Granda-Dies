@@ -42,6 +42,7 @@ public class GrandpaDespairCutsceneManager : MonoBehaviour
         
         vCam.Follow = GameObject.FindWithTag("Player").transform;
         PlayerController.canMove = true;
+        GrandpaManager.grandpaHealth--;
         //this.GameObject().SetActive(false);
     }
 }

@@ -1,10 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+
 
 public class Interactionarea : MonoBehaviour
 {
@@ -66,7 +63,6 @@ public class Interactionarea : MonoBehaviour
                 grandpaManager.InfuseWithPiss();
             
             objectChangeSprite.GetComponent<SpriteRenderer>().sprite = spriteToUse; 
-            grandpaManager.grandpaHealth--;
         }
     }
 
