@@ -2312,119 +2312,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &738557729
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 115197427300508753, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1164.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 115197427300508753, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -173.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 427892840087932034, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1165.5801
-      objectReference: {fileID: 0}
-    - target: {fileID: 427892840087932034, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -175.2384
-      objectReference: {fileID: 0}
-    - target: {fileID: 584857494050333927, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636268942874760770, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_Name
-      value: Piss mingame
-      objectReference: {fileID: 0}
-    - target: {fileID: 2188602032134765600, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4316548721443274883, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1167.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 4316548721443274883, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -174.66692
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450612046335728203, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450612046335728203, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450612046335728203, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6912458325230980672, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1164.8728
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 175.05525
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -16.972725
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7624043770705118082, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7705586433434088617, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9195573284264441158, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-      propertyPath: gameObject
-      value: 
-      objectReference: {fileID: 1043312941}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
 --- !u!1 &791485198
 GameObject:
   m_ObjectHideFlags: 0
@@ -3296,23 +3183,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1020501291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fde41421173204e4cb5712efd3dd1d26, type: 3}
+  m_Script: {fileID: 11500000, guid: b4d98656662b83c42ab95d8b9113b63c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interract: {fileID: -7799396482176383698, guid: 447e195ab6300c84ba5f56672f2b0b5a, type: 3}
-  normalSprite: {fileID: -2156228640528415710, guid: 9565c172842c0ec489b532446782ef2f, type: 3}
+  interract: {fileID: 0}
+  normalSprite: {fileID: 7695301393555701864, guid: 47250d5eebc5a4d0c956df4717612256, type: 3}
   outlineSprite: {fileID: 654992554134842823, guid: 47250d5eebc5a4d0c956df4717612256, type: 3}
   spriteRenderer: {fileID: 844337738}
-  gameObject: {fileID: 1043312941}
+  minigame: Piss Minigame
   objectsToDelete:
   - {fileID: 1279225930}
   objectChangeSprite: {fileID: 844337736}
   spriteToUse: {fileID: 8621843041608337868, guid: 9565c172842c0ec489b532446782ef2f, type: 3}
---- !u!1 &1043312941 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2188602032134765600, guid: 38ca50a968cb0ba4192e0a1561599437, type: 3}
-  m_PrefabInstance: {fileID: 738557729}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1058941015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9233,4 +9115,3 @@ SceneRoots:
   - {fileID: 1020501294}
   - {fileID: 1706023561}
   - {fileID: 1626217919}
-  - {fileID: 738557729}

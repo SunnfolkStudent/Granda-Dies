@@ -1,112 +1,79 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
-
-
-    public GameObject gameObject;
-    private Transform _transform;
-    private Vector3 _dragOffset;
-    private Camera _camera;
-    private Vector3 _resetPos;
-    [SerializeField] private GameObject _dropSlot;
-    [SerializeField] private float _speed = 100;
-    private SpriteRenderer ivOpacity;
-    private SpriteRenderer peeBagOpacity;
-    
-    private float opacityscale;
-    private float endTimer;
-
-    private bool ivSwitch;
-
+    [SerializeField] private Canvas canvas;
+    private RectTransform _rectTransform;
+    private CanvasGroup _canvasGroup;
     public GameObject ivPiss;
-    public GameObject awakeGranpa;
+    public GameObject grampaAwake;
+    public float ivPissTransparency = 0f;
+    public float endingTimer = 0f;
+
+    public static bool droppedPiss;
     
     private void Awake()
     {
-        _transform = GetComponent<Transform>();
-        _camera = Camera.main;
-        _resetPos = this.transform.localPosition;
-    }
-
-    private void Start()
-    {
-        ivOpacity = ivPiss.GetComponent<SpriteRenderer>();
-        peeBagOpacity = gameObject.GetComponent<SpriteRenderer>();
-        opacityscale = 0;
-        ivOpacity.color = new Color(1f, 1f, 1f, 0f);
+        _rectTransform = GetComponent<RectTransform>();
+        _canvasGroup = GetComponent<CanvasGroup>();
     }
 
     private void Update()
     {
-        if (ivSwitch == true)
+        if (droppedPiss)
         {
-          opacityscale += 0.5f * Time.deltaTime;
-          Debug.Log("Begin filling with piss");
-        }
-        ivOpacity.color = new Color(1f, 1f, 1f, opacityscale);
-        
-        
-        if (opacityscale > 1)
-        {
-            awakeGranpa.SetActive(true);
-            ivSwitch = false;
-            endTimer += 0.5f * Time.deltaTime;
+            Debug.Log("droppedPiss");
+
+            _canvasGroup.alpha = 0f;
+            _canvasGroup.interactable = false;
+
+            ivPissTransparency += 0.25f * Time.deltaTime;
+            
         }
 
-        if (endTimer > 1)
+        if (ivPissTransparency >= 1f)
         {
-           gameObject.SetActive(false);
+            droppedPiss = false;
+            grampaAwake.SetActive(true);
+
+            endingTimer += 0.25f * Time.deltaTime;
+        }
+
+        if (endingTimer >= 1)
+        {
+            SceneManager.UnloadSceneAsync("Piss Minigame");
             Debug.Log("unloading");
             PlayerController.canMove = true;
             var temp = GameObject.FindWithTag("Grandpa");
-            
+            GrandpaDespairCutsceneManager.playCutscene = true;
         }
+        
+        ivPiss.GetComponent<SpriteRenderer>().color = new Color(1,1,1,ivPissTransparency);
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("OnPointerDown");
-        _dragOffset = transform.position - GetMousePos();
+        Debug.Log("On Pointer Down");
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
+        Debug.Log("Begin Drag");
+        _canvasGroup.blocksRaycasts = false;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
-        if (Mathf.Abs(this.transform.localPosition.x - _dropSlot.transform.localPosition.x) <= 1f 
-            && Mathf.Abs(this.transform.localPosition.y - _dropSlot.transform.localPosition.y) <= 1f)
-        {
-            Debug.Log("Correct area");
-            peeBagOpacity.color = new Color(1f, 1f, 1f, 0);
-            ivSwitch = true;
-        }
-        else
-        {
-            this.transform.localPosition = new Vector3(_resetPos.x, _resetPos.y, _resetPos.z);
-        }
-        
+        Debug.Log("End Drag");
+        _canvasGroup.blocksRaycasts = true;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("OnDrag");
-        _transform.position = Vector3.MoveTowards(transform.position, GetMousePos() + _dragOffset, _speed * Time.deltaTime);
+        Debug.Log("Dragging");
+        _rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
-
-    Vector3 GetMousePos()
-    {
-        var mousePos = _camera.ScreenToWorldPoint(Input.mousePosition);
-        mousePos.z = 0;
-        return mousePos;
-    }
+    
 }
